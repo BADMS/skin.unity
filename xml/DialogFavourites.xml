@@ -31,7 +31,7 @@
 				<width>355</width>
 				<height>60</height>
 				<font>menu.title</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>1036</label>
@@ -77,7 +77,7 @@
 							<font>button</font>
 							<align>center</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</itemlayout>
@@ -106,7 +106,7 @@
 							<font>button</font>
 							<align>center</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<info>ListItem.Label</info>
 							<visible>!Control.HasFocus(450)</visible>
 						</control>
@@ -118,7 +118,7 @@
 							<font>button</font>
 							<align>center</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<info>ListItem.Label</info>
 							<visible>Control.HasFocus(450)</visible>
 						</control>
@@ -134,7 +134,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>breadcrumb.secondary</font>
-				<textcolor>text.primary</textcolor>
+				<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 				<label>$INFO[Container(450).NumItems] $LOCALIZE[31025]  [COLOR=$VAR[Colour.500]]$LOCALIZE[31024] $INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages][/COLOR]</label>
 			</control>
 		</control>

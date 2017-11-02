@@ -40,7 +40,7 @@
 					<font>menu.title</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[13406]</label>
 				</control>
 				<!--secondary title-->
@@ -52,7 +52,7 @@
 					<font>kai.secondary</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[System.Date(DDD)], $INFO[System.Date(d)] $INFO[System.Date(mmm)] $INFO[System.Date(yyyy)], $INFO[System.Time] • $INFO[Container(5).NumItems] $LOCALIZE[31025] ($LOCALIZE[31024] $INFO[Container(5).CurrentPage]/$INFO[Container(5).NumPages])</label>
 				</control>
 				<!--content list-->
@@ -108,7 +108,7 @@
 							<height>60</height>
 							<font>button</font>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
@@ -119,7 +119,7 @@
 							<height>60</height>
 							<font>button</font>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 							<align>right</align>
 							<info>ListItem.Label2</info>

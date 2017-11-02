@@ -48,7 +48,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[13406]</label>
 				</control>
 				<!--secondary title-->
@@ -60,7 +60,7 @@
 					<font>breadcrumb</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>1021</label>
 				</control>
 				<!--path list-->
@@ -85,7 +85,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
@@ -109,7 +109,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
@@ -122,8 +122,8 @@
 					<bottom>530</bottom>
 					<orientation>vertical</orientation>
 					<showonepage>false</showonepage>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 					<onleft>10</onleft>
 					<onright>9000</onright>
 				</control>
@@ -206,7 +206,7 @@
 					<font>breadcrumb</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>1022</label>
 				</control>
 				<!--name button-->
@@ -219,8 +219,8 @@
 					<aligny>center</aligny>
 					<label>-</label>
 					<font>label</font>
-					<textcolor>text.primary</textcolor>
-					<focusedcolor>white</focusedcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+					<focusedcolor>$VAR[WHITE]</focusedcolor>
 					<texturefocus colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texturefocus>
 					<texturenofocus colordiffuse="button.border">button-border-1110.png</texturenofocus>
 					<onup>10</onup>

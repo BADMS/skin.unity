@@ -48,7 +48,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<visible>Player.Process(videohwdecoder)</visible>
 			</control>
 			<control type="label">
@@ -62,7 +62,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<visible>!Player.Process(videohwdecoder)</visible>
 			</control>
 			<control type="label">
@@ -88,7 +88,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Deinterlace</description>
@@ -113,7 +113,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Resolution</description>
@@ -138,7 +138,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Header</description>
@@ -175,7 +175,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Channels</description>
@@ -200,7 +200,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Header</description>
@@ -237,7 +237,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Memory</description>
@@ -262,7 +262,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 		</control>
 		<control type="group">
@@ -303,7 +303,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Device</description>
@@ -328,7 +328,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Status</description>
@@ -353,7 +353,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Signal</description>
@@ -385,7 +385,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>SNR</description>
@@ -418,7 +418,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>BER</description>
@@ -443,7 +443,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>UNC</description>
@@ -468,7 +468,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Service</description>
@@ -493,7 +493,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Encryption</description>
@@ -518,7 +518,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Provider</description>
@@ -543,7 +543,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label">
 				<description>Mux</description>
@@ -568,7 +568,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 		</control>
 	</controls>

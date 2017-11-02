@@ -76,7 +76,7 @@
 				<control type="image">
 					<width>1140</width>
 					<height>190</height>
-					<texture colordiffuse="tertiary">backgrounds/np info bg.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/np info bg.png</texture>
 				</control>
 				<!--title bg-->
 				<control type="image">
@@ -108,7 +108,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[Player.Title]$INFO[MusicPlayer.Artist, - ]</label>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 					</control>
 					<control type="grouplist">
 						<left>15</left>

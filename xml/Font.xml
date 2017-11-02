@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fonts>
 	<fontset id="Default" idloc="31390">
-		<!--Unity Fonts-->
+		<!--Unityx Fonts-->
 		<font>
 			<name>info.title</name>
 			<filename>Roboto-Light.ttf</filename>
@@ -28,7 +28,7 @@
 			<style>uppercase</style>
 		</font>
 		<font>
-			<name>breadcrumb.tertiary</name>
+			<name>breadcrumb.$VAR[TERTIARY]</name>
 			<filename>Roboto-Regular.ttf</filename>
 			<size>18</size>
 			<style>uppercase</style>
@@ -175,7 +175,7 @@
 		</font>
 	</fontset>
 	<fontset id="RobotoBold" idloc="31393">
-		<!--Unity Fonts-->
+		<!--Unityx Fonts-->
 		<font>
 			<name>info.title</name>
 			<filename>Roboto-Regular.ttf</filename>
@@ -202,7 +202,7 @@
 			<style>uppercase</style>
 		</font>
 		<font>
-			<name>breadcrumb.tertiary</name>
+			<name>breadcrumb.$VAR[TERTIARY]</name>
 			<filename>Roboto-Bold.ttf</filename>
 			<size>18</size>
 			<style>uppercase</style>
@@ -349,7 +349,7 @@
 		</font>
 	</fontset>
 	<fontset id="RobotoBlack" idloc="31394">
-		<!--Unity Fonts-->
+		<!--Unityx Fonts-->
 		<font>
 			<name>info.title</name>
 			<filename>Roboto-Black.ttf</filename>
@@ -376,7 +376,7 @@
 			<style>uppercase</style>
 		</font>
 		<font>
-			<name>breadcrumb.tertiary</name>
+			<name>breadcrumb.$VAR[TERTIARY]</name>
 			<filename>Roboto-Black.ttf</filename>
 			<size>18</size>
 			<style>uppercase</style>

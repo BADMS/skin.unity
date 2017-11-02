@@ -39,7 +39,7 @@
 					<font>menu.title</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[298]</label>
 				</control>
 				<!--file count-->
@@ -109,7 +109,7 @@
 							<top>205</top>
 							<width>275</width>
 							<height>50</height>
-							<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+							<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						</control>
 						<!--main label-->
 						<control type="label">
@@ -118,7 +118,7 @@
 							<width>250</width>
 							<height>60</height>
 							<font>breadcrumb</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, (,)]</label>

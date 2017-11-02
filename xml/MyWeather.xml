@@ -59,7 +59,7 @@
 						<top>-20</top>
 						<width>750</width>
 						<height>730</height>
-						<texture border="20" colordiffuse="tertiary">backgrounds/info bg.png</texture>
+						<texture border="20" colordiffuse="$VAR[TERTIARY]">backgrounds/info bg.png</texture>
 					</control>
 					<!--title background-->
 					<control type="image">
@@ -105,7 +105,7 @@
 						<label>31300</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 					</control>
 					<control type="image">
 						<left>555</left>
@@ -122,7 +122,7 @@
 						<width>140</width>
 						<height>50</height>
 						<font>kai.secondary</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<scroll>true</scroll>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -140,7 +140,7 @@
 							<label>$LOCALIZE[31301] - $INFO[Window.Property(Updated)]</label>
 							<align>right</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 						</control>
 						<control type="label">
 							<description>weather location label</description>
@@ -149,7 +149,7 @@
 							<width>540</width>
 							<height>50</height>
 							<font>kai.secondary</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<scroll>false</scroll>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -165,7 +165,7 @@
 							<align>right</align>
 							<aligny>top</aligny>
 							<label>$INFO[Window.Property(Current.Temperature)]</label>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						</control>
 						<control type="label">
 							<description>current temp Value Units</description>
@@ -177,7 +177,7 @@
 							<align>left</align>
 							<aligny>top</aligny>
 							<label>[B]$INFO[System.TemperatureUnits][/B]</label>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						</control>
 						<control type="image">
 							<description>current weather icon</description>
@@ -199,7 +199,7 @@
 							<font>secondary.info</font>
 							<align>right</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						</control>
 					</control>
 					<control type="grouplist">
@@ -303,7 +303,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<label>$INFO[Window.Property(Current.FeelsLike)]$INFO[System.TemperatureUnits]</label>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<visible>!String.IsEmpty(Window.Property(Current.FeelsLike))</visible>
 						</control>
 						<control type="label">
@@ -316,7 +316,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<label>$INFO[Window.Property(Current.DewPoint)]$INFO[System.TemperatureUnits]</label>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<visible>!String.IsEmpty(Window.Property(Current.DewPoint))</visible>
 						</control>
 						<control type="label">
@@ -329,7 +329,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<info>Window.Property(Current.Humidity)</info>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<visible>!String.IsEmpty(Window.Property(Current.Humidity))</visible>
 						</control>
 						<control type="label">
@@ -342,7 +342,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<info>Window.Property(Current.UVIndex)</info>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<visible>!String.IsEmpty(Window.Property(Current.UVIndex))</visible>
 						</control>
 						<control type="label">
@@ -355,7 +355,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<info>Window.Property(Current.Precipitation)</info>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<visible>!String.IsEmpty(Window.Property(Current.Precipitation))</visible>
 						</control>
 						<control type="label">
@@ -368,7 +368,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<info>Window.Property(Current.Wind)</info>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<visible>!String.IsEmpty(Window.Property(Current.Wind))</visible>
 						</control>
 					</control>
@@ -383,7 +383,7 @@
 							<font>secondary.info</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<label>$LOCALIZE[33027] : [COLOR=text.primary]$INFO[Window.Property(Today.Sunrise)][/COLOR]</label>
+							<label>$LOCALIZE[33027] : [COLOR=$VAR[TEXT_PRIMARY]]$INFO[Window.Property(Today.Sunrise)][/COLOR]</label>
 							<textcolor>$VAR[Colour.500]</textcolor>
 							<visible>!String.IsEmpty(Window.Property(Today.Sunrise))</visible>
 						</control>
@@ -396,7 +396,7 @@
 							<font>secondary.info</font>
 							<align>right</align>
 							<aligny>center</aligny>
-							<label>$LOCALIZE[33028] : [COLOR=text.primary]$INFO[Window.Property(Today.Sunset)][/COLOR]</label>
+							<label>$LOCALIZE[33028] : [COLOR=$VAR[TEXT_PRIMARY]]$INFO[Window.Property(Today.Sunset)][/COLOR]</label>
 							<textcolor>$VAR[Colour.500]</textcolor>
 							<visible>!String.IsEmpty(Window.Property(Today.Sunset))</visible>
 						</control>
@@ -443,7 +443,7 @@
 							<height>60</height>
 							<font>button</font>
 							<label>31027</label>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<align>left</align>
 							<aligny>center</aligny>
 							<visible>!Control.HasFocus(3)</visible>
@@ -455,7 +455,7 @@
 							<height>60</height>
 							<font>button</font>
 							<label>31027</label>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<align>left</align>
 							<aligny>center</aligny>
 							<visible>Control.HasFocus(3)</visible>

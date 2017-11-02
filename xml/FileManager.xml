@@ -36,7 +36,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>A</label>
 			</control>
 			<!--secondary title-->
@@ -48,7 +48,7 @@
 				<font>kai.secondary</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<scroll>true</scroll>
 			</control>
 			<!--page info-->
@@ -60,7 +60,7 @@
 				<font>kai.secondary</font>
 				<align>right</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>$INFO[Container(20).NumItems] $LOCALIZE[31025] ($LOCALIZE[31024] $INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages])</label>
 			</control>
 			<control type="list" id="20">
@@ -119,7 +119,7 @@
 						<width>590</width>
 						<font>button</font>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
@@ -129,7 +129,7 @@
 						<width>195</width>
 						<font>button</font>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -139,7 +139,7 @@
 						<top>2</top>
 						<width>41</width>
 						<height>41</height>
-						<texture colordiffuse="white">$INFO[ListItem.Icon]</texture>
+						<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Icon]</texture>
 						<aspectratio align="center" aligny="center">keep</aspectratio>
 					</control>
 				</focusedlayout>
@@ -182,7 +182,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>B</label>
 			</control>
 			<!--secondary title-->
@@ -194,7 +194,7 @@
 				<font>kai.secondary</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<scroll>true</scroll>
 			</control>
 			<!--page info-->
@@ -206,7 +206,7 @@
 				<font>kai.secondary</font>
 				<align>right</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>$INFO[Container(21).NumItems] $LOCALIZE[31025] ($LOCALIZE[31024] $INFO[Container(21).CurrentPage]/$INFO[Container(21).NumPages])</label>
 			</control>
 			<control type="list" id="21">
@@ -265,7 +265,7 @@
 						<width>590</width>
 						<font>button</font>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
@@ -275,7 +275,7 @@
 						<width>195</width>
 						<font>button</font>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -285,7 +285,7 @@
 						<top>2</top>
 						<width>41</width>
 						<height>41</height>
-						<texture colordiffuse="white">$INFO[ListItem.Icon]</texture>
+						<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Icon]</texture>
 						<aspectratio align="center" aligny="center">keep</aspectratio>
 					</control>
 				</focusedlayout>

@@ -14,13 +14,13 @@
 				<top>-10</top>
 				<width>294</width>
 				<height>93</height>
-				<texture border="12" colordiffuse="tertiary">backgrounds/kai.png</texture>
+				<texture border="12" colordiffuse="$VAR[TERTIARY]">backgrounds/kai.png</texture>
 			</control>
 			<!--background-->
 			<control type="image">
 				<width>270</width>
 				<height>73</height>
-				<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+				<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 			</control>
 			<!--background strip-->
 			<control type="image">
@@ -48,7 +48,7 @@
 				<aligny>center</aligny>
 				<label>$LOCALIZE[31004]</label>
 				<font>kai.primary</font>
-				<textcolor>text.primary</textcolor>
+				<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 			</control>
 			<control type="progress" id="10">
 				<description>Progressbar</description>

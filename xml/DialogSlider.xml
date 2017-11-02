@@ -35,7 +35,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>menu.title</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 				</control>
 				<control type="label" id="12">
 					<description>Slider Value</description>
@@ -46,7 +46,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 				</control>
 				<control type="slider" id="11">
 					<description>Slider</description>
@@ -56,7 +56,7 @@
 					<aligny>center</aligny>
 					<texturefocus>-</texturefocus>
 					<texturenofocus>-</texturenofocus>
-					<texturesliderbar colordiffuse="text.primary">osd_slider_bg_3.png</texturesliderbar>
+					<texturesliderbar colordiffuse="$VAR[TEXT_PRIMARY]">osd_slider_bg_3.png</texturesliderbar>
 					<textureslidernib colordiffuse="$VAR[Colour.500]">osd_slider_nibNF.png</textureslidernib>
 					<textureslidernibfocus colordiffuse="$VAR[Colour.500]">osd_slider_nib.png</textureslidernibfocus>
 					<onup>11</onup>

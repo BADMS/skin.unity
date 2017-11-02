@@ -52,7 +52,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>-</label>
 			</control>
 			<control type="grouplist" id="9000">

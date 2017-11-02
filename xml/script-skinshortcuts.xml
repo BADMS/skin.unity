@@ -57,7 +57,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>-</label>
 				</control>
 				<control type="group">
@@ -78,7 +78,7 @@
 								<left>120</left>
 								<width>455</width>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<label>$INFO[ListItem.Label]</label>
 							</control>
 						</itemlayout>
@@ -168,8 +168,8 @@
 						<left>-22</left>
 						<top>0</top>
 						<height>880</height>
-						<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-						<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+						<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+						<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 						<onleft>300</onleft>
 						<onright>302</onright>
 					</control>

@@ -29,7 +29,8 @@
 						<top>5</top>
 						<width>1000</width>
 						<height>60</height>
-						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						<colordiffuse>$INFO[Window(home).Property(ImageColorSEVEN)]</colordiffuse>
+						<texture colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 					</control>
 					<!--main label-->
 					<control type="label">
@@ -38,7 +39,7 @@
 						<width>990</width>
 						<height>60</height>
 						<font>label</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -51,7 +52,7 @@
 						<width>600</width>
 						<height>60</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -65,7 +66,7 @@
 						<width>600</width>
 						<height>60</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -99,7 +100,7 @@
 						<top>15</top>
 						<width>45</width>
 						<height>40</height>
-						<texture colordiffuse="white">$INFO[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos) + !ListItem.IsResumable</visible>
 					</control>
 					<!--resumable icon-->
@@ -108,7 +109,7 @@
 						<top>15</top>
 						<width>45</width>
 						<height>40</height>
-						<texture colordiffuse="white">OverlayWatching.png</texture>
+						<texture colordiffuse="$VAR[WHITE]">OverlayWatching.png</texture>
 						<visible>Window.IsVisible(Videos) + ListItem.IsResumable</visible>
 					</control>
 				</itemlayout>
@@ -119,7 +120,7 @@
 						<top>5</top>
 						<width>1000</width>
 						<height>60</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="75" time="200" condition="Control.HasFocus(60)">Conditional</animation>
 					</control>
 					<!--background strip-->
@@ -138,7 +139,7 @@
 						<width>990</width>
 						<height>60</height>
 						<font>label</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -151,7 +152,7 @@
 						<width>600</width>
 						<height>60</height>
 						<font>secondary.info</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -165,7 +166,7 @@
 						<width>600</width>
 						<height>60</height>
 						<font>secondary.info</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -292,7 +293,7 @@
 						<top>0</top>
 						<width>233</width>
 						<height>233</height>
-						<texture background="true" colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<bordersize>5</bordersize>
 						<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/square shadow small.png</bordertexture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
@@ -303,7 +304,7 @@
 						<top>0</top>
 						<width>233</width>
 						<height>233</height>
-						<texture background="true" colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture background="true" colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 						<bordersize>5</bordersize>
 						<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/square shadow small.png</bordertexture>
 						<visible>!String.Contains(ListItem.Icon,Default)</visible>
@@ -367,7 +368,7 @@
 						<top>7</top>
 						<width>34</width>
 						<height>30</height>
-						<texture colordiffuse="white">$INFO[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos) + !ListItem.IsResumable</visible>
 					</control>
 					<!--resumable icon-->
@@ -376,7 +377,7 @@
 						<top>7</top>
 						<width>34</width>
 						<height>30</height>
-						<texture colordiffuse="white">OverlayWatching.png</texture>
+						<texture colordiffuse="$VAR[WHITE]">OverlayWatching.png</texture>
 						<visible>Window.IsVisible(Videos) + ListItem.IsResumable</visible>
 					</control>
 				</itemlayout>
@@ -387,7 +388,7 @@
 						<top>0</top>
 						<width>233</width>
 						<height>233</height>
-						<texture background="true" colordiffuse="tertiary2">backgrounds/white.png</texture>
+						<texture background="true" colordiffuse="$VAR[TERTIARYTWO]">backgrounds/white.png</texture>
 						<bordersize>5</bordersize>
 						<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</bordertexture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
@@ -398,7 +399,7 @@
 						<top>0</top>
 						<width>233</width>
 						<height>233</height>
-						<texture background="true" colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture background="true" colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 						<bordersize>5</bordersize>
 						<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</bordertexture>
 						<visible>!String.Contains(ListItem.Icon,Default)</visible>
@@ -453,7 +454,7 @@
 						<top>148</top>
 						<width>197</width>
 						<height>80</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 					</control>
 					<!--main label-->
 					<control type="textbox">
@@ -462,7 +463,7 @@
 						<width>167</width>
 						<height>63</height>
 						<font>secondary.info.big</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
@@ -474,7 +475,7 @@
 						<top>5</top>
 						<width>35</width>
 						<height>35</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<visible>String.IsEqual(ListItem.Overlay,OverlayWatched.png) | ListItem.IsResumable</visible>
 					</control>
 					<!--watched icon-->
@@ -503,7 +504,7 @@
 						<top>0</top>
 						<width>237</width>
 						<height>350</height>
-						<texture colordiffuse="tertiary" background="true">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]" background="true">backgrounds/white.png</texture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
 						<bordersize>5</bordersize>
 						<bordertexture>backgrounds/poster shadow small.png</bordertexture>
@@ -545,7 +546,7 @@
 						<top>7</top>
 						<width>34</width>
 						<height>30</height>
-						<texture colordiffuse="white">$INFO[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos) + !ListItem.IsResumable</visible>
 					</control>
 					<!--resumable icon-->
@@ -554,7 +555,7 @@
 						<top>7</top>
 						<width>34</width>
 						<height>30</height>
-						<texture colordiffuse="white">OverlayWatching.png</texture>
+						<texture colordiffuse="$VAR[WHITE]">OverlayWatching.png</texture>
 						<visible>Window.IsVisible(Videos) + ListItem.IsResumable</visible>
 					</control>
 				</itemlayout>
@@ -565,7 +566,7 @@
 						<top>0</top>
 						<width>237</width>
 						<height>350</height>
-						<texture colordiffuse="tertiary2" background="true">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARYTWO]" background="true">backgrounds/white.png</texture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
 						<bordersize>5</bordersize>
 						<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</bordertexture>
@@ -598,7 +599,7 @@
 						<top>265</top>
 						<width>207</width>
 						<height>80</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 					</control>
 					<!--main label-->
 					<control type="textbox">
@@ -607,7 +608,7 @@
 						<width>177</width>
 						<height>63</height>
 						<font>secondary.info.big</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>primary</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
@@ -619,7 +620,7 @@
 						<top>5</top>
 						<width>35</width>
 						<height>35</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<visible>String.IsEqual(ListItem.Overlay,OverlayWatched.png) | ListItem.IsResumable</visible>
 					</control>
 					<!--watched icon-->
@@ -683,7 +684,7 @@
 						<width>610</width>
 						<height>117</height>
 						<aspectratio>stretch</aspectratio>
-						<texture colordiffuse="tertiary" background="true">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]" background="true">backgrounds/white.png</texture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
 						<bordersize>5</bordersize>
 						<bordertexture>backgrounds/banner shadow.png</bordertexture>
@@ -698,7 +699,7 @@
 						<texture colordiffuse="$VAR[Colour.500]" background="true">$VAR[PosterThumb]</texture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
 						<bordersize>2</bordersize>
-						<bordertexture colordiffuse="tertiary">backgrounds/white.png</bordertexture>
+						<bordertexture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</bordertexture>
 					</control>
 					<!--banner (no fallback)-->
 					<control type="image">
@@ -727,7 +728,7 @@
 						<top>7</top>
 						<width>34</width>
 						<height>30</height>
-						<texture colordiffuse="white">$INFO[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos) + !ListItem.IsResumable</visible>
 					</control>
 				</itemlayout>
@@ -739,7 +740,7 @@
 						<width>610</width>
 						<height>117</height>
 						<aspectratio>stretch</aspectratio>
-						<texture colordiffuse="tertiary" background="true">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]" background="true">backgrounds/white.png</texture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
 						<bordersize>5</bordersize>
 						<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</bordertexture>
@@ -754,7 +755,7 @@
 						<texture colordiffuse="$VAR[Colour.500]" background="true">$VAR[PosterThumb]</texture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
 						<bordersize>2</bordersize>
-						<bordertexture colordiffuse="tertiary">backgrounds/white.png</bordertexture>
+						<bordertexture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</bordertexture>
 					</control>
 					<!--banner (no fallback)-->
 					<control type="image">
@@ -774,7 +775,7 @@
 						<top>5</top>
 						<width>35</width>
 						<height>35</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<visible>String.IsEqual(ListItem.Overlay,OverlayWatched.png) | ListItem.IsResumable</visible>
 					</control>
 					<!--watched icon-->
@@ -828,7 +829,7 @@
 						<top>0</top>
 						<width>1470</width>
 						<height>60</height>
-						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 					</control>
 					<!--thumb (fallback)-->
 					<control type="image">
@@ -836,7 +837,7 @@
 						<top>7</top>
 						<width>46</width>
 						<height>46</height>
-						<texture colordiffuse="white">$INFO[ListItem.Icon,default small/,]</texture>
+						<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Icon,default small/,]</texture>
 						<aspectratio align="center" aligny="center">keep</aspectratio>
 						<visible>String.Contains(ListItem.Icon,default)</visible>
 					</control>
@@ -857,7 +858,7 @@
 						<width>1414</width>
 						<height>60</height>
 						<font>label</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -870,7 +871,7 @@
 						<width>600</width>
 						<height>60</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -884,7 +885,7 @@
 						<width>600</width>
 						<height>60</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -918,7 +919,7 @@
 						<top>10</top>
 						<width>45</width>
 						<height>40</height>
-						<texture colordiffuse="white">$INFO[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Overlay]</texture>
 						<visible>Window.IsVisible(Videos) + !ListItem.IsResumable</visible>
 					</control>
 					<!--secondary label (videos)-->
@@ -927,7 +928,7 @@
 						<top>10</top>
 						<width>45</width>
 						<height>40</height>
-						<texture colordiffuse="white">OverlayWatching.png</texture>
+						<texture colordiffuse="$VAR[WHITE]">OverlayWatching.png</texture>
 						<visible>Window.IsVisible(Videos) + ListItem.IsResumable</visible>
 					</control>
 				</itemlayout>
@@ -938,7 +939,7 @@
 						<top>0</top>
 						<width>1470</width>
 						<height>60</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="75" time="200" condition="Control.HasFocus(60)">Conditional</animation>
 					</control>
 					<!--background strip-->
@@ -956,7 +957,7 @@
 						<top>7</top>
 						<width>46</width>
 						<height>46</height>
-						<texture colordiffuse="text.primary">$INFO[ListItem.Icon,default small/,]</texture>
+						<texture colordiffuse="$VAR[TEXT_PRIMARY]">$INFO[ListItem.Icon,default small/,]</texture>
 						<aspectratio align="center" aligny="center">keep</aspectratio>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
 					</control>
@@ -977,7 +978,7 @@
 						<width>1414</width>
 						<height>60</height>
 						<font>label</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -990,7 +991,7 @@
 						<width>600</width>
 						<height>60</height>
 						<font>secondary.info</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -1004,7 +1005,7 @@
 						<width>600</width>
 						<height>60</height>
 						<font>secondary.info</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>

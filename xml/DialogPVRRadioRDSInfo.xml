@@ -44,7 +44,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[29900]</label>
 				</control>
 				<!--left info list-->
@@ -80,8 +80,8 @@
 							<font>secondary.info</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
-							<selectedcolor>text.primary</selectedcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+							<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 							<label fallback="33077">$INFO[ListItem.Label2]</label>
 						</control>
 					</itemlayout>
@@ -114,8 +114,8 @@
 							<font>secondary.info</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
-							<selectedcolor>text.primary</selectedcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+							<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 							<label fallback="33077">$INFO[ListItem.Label2]</label>
 						</control>
 					</focusedlayout>
@@ -203,8 +203,8 @@
 							<font>secondary.info</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
-							<selectedcolor>text.primary</selectedcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+							<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 							<label fallback="33077">$INFO[ListItem.Label2]</label>
 						</control>
 					</itemlayout>
@@ -237,8 +237,8 @@
 							<font>secondary.info</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
-							<selectedcolor>text.primary</selectedcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+							<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 							<label fallback="33077">$INFO[ListItem.Label2]</label>
 						</control>
 					</focusedlayout>
@@ -346,7 +346,7 @@
 							<font>secondary.info</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<label fallback="33077">$INFO[RDS.ProgNow]</label>
 						</control>
 					</control>
@@ -366,7 +366,7 @@
 							<font>secondary.info</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<label fallback="33077">$INFO[RDS.ProgNext]</label>
 						</control>
 					</control>
@@ -385,7 +385,7 @@
 					<width>600</width>
 					<height>45</height>
 					<font>secondary.info.light</font>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -414,7 +414,7 @@
 					<height>290</height>
 					<font>label</font>
 					<align>justify</align>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<pagecontrol>60</pagecontrol>
 					<label fallback="161">-</label>
 				</control>

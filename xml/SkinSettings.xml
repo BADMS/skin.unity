@@ -57,7 +57,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>$LOCALIZE[31072] - $LOCALIZE[5]</label>
 			</control>
 			<!--left buttons-->
@@ -79,7 +79,7 @@
 						<width>570</width>
 						<height>60</height>
 						<font>button</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[Colour.500]</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -92,7 +92,7 @@
 						<top>0</top>
 						<width>355</width>
 						<height>60</height>
-						<texture colordiffuse="white">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="30" time="100" condition="!Control.HasFocus(9000)">Conditional</animation>
 					</control>
 					<!--label-->

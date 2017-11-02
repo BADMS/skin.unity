@@ -48,7 +48,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[19199] - $LOCALIZE[19023]</label>
 					<visible>String.IsEmpty(Window.Property(IsRadio))</visible>
 				</control>
@@ -61,7 +61,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[19199] - $LOCALIZE[19024]</label>
 					<visible>!String.IsEmpty(Window.Property(IsRadio))</visible>
 				</control>
@@ -71,8 +71,8 @@
 					<left>-12</left>
 					<top>120</top>
 					<bottom>185</bottom>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 					<onleft>9002</onleft>
 					<onright>20</onright>
 				</control>
@@ -96,7 +96,7 @@
 							<font>button</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<label>$INFO[ListItem.Property(Number),(,) - ]$INFO[ListItem.Property(Name)]</label>
 							<visible>ListItem.Property(ActiveChannel)</visible>
@@ -129,7 +129,7 @@
 							<top>0</top>
 							<width>300</width>
 							<height>60</height>
-							<texture colordiffuse="white">backgrounds/white.png</texture>
+							<texture colordiffuse="$VAR[WHITE]">backgrounds/white.png</texture>
 							<animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(20)">conditional</animation>
 						</control>
 						<control type="label">

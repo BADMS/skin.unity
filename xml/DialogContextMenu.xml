@@ -33,7 +33,7 @@
 				<width>355</width>
 				<height>60</height>
 				<font>menu.title</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>31065</label>

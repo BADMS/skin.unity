@@ -35,7 +35,7 @@
 						<top>5</top>
 						<width>1140</width>
 						<height>60</height>
-						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 					</control>
 					<control type="group">
 						<left>4</left>
@@ -54,7 +54,7 @@
 							<width>715</width>
 							<height>60</height>
 							<font>label</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -66,7 +66,7 @@
 							<width>285</width>
 							<height>60</height>
 							<font>label</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>right</align>
 							<aligny>center</aligny>
@@ -98,7 +98,7 @@
 						<top>5</top>
 						<width>1140</width>
 						<height>60</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="75" time="200" condition="!Control.HasFocus(50)">Conditional</animation>
 					</control>
 					<!--focused bg nib-->
@@ -137,7 +137,7 @@
 							<width>715</width>
 							<height>60</height>
 							<font>label</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -149,7 +149,7 @@
 							<width>285</width>
 							<height>60</height>
 							<font>label</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>right</align>
 							<aligny>center</aligny>
@@ -194,7 +194,7 @@
 					<left>-20</left>
 					<width>550</width>
 					<height>730</height>
-					<texture background="true" colordiffuse="tertiary">backgrounds/info bg.png</texture>
+					<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/info bg.png</texture>
 				</control>
 				<!--fanart (fallback)-->
 				<control type="image">
@@ -214,7 +214,7 @@
 					<height>287</height>
 					<aspectratio>keep</aspectratio>
 					<texture background="true">$INFO[Container(50).ListItem.Icon]</texture>
-					<bordertexture background="true" colordiffuse="tertiary">backgrounds/white.png</bordertexture>
+					<bordertexture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</bordertexture>
 					<bordersize>0</bordersize>
 					<visible>!String.Contains(ListItem.Icon,default)</visible>
 				</control>
@@ -241,8 +241,8 @@
 					<width>480</width>
 					<height>60</height>
 					<font>secondary.info.big</font>
-					<textcolor>white</textcolor>
-					<selectedcolor>white</selectedcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
+					<selectedcolor>$VAR[WHITE]</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>$INFO[Container(50).ListItem.Label]$INFO[Container(50).ListItem.Duration, • ]$INFO[Container(50).ListItem.Genre, • ,]</label>
@@ -255,7 +255,7 @@
 					<height>268</height>
 					<font>label</font>
 					<align>left</align>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[Container(50).ListItem.Plot]</label>
 					<autoscroll time="2000" delay="5000" repeat="8000">Skin.HasSetting(AutoScroll)</autoscroll>
 				</control>

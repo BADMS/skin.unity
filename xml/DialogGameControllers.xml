@@ -43,7 +43,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[35058]</label>
 				</control>
 				<control type="gamecontroller" id="31">
@@ -87,7 +87,7 @@
 					<font>breadcrumb</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>35050</label>
 				</control>
 				<!--Controller types grouplist-->
@@ -112,8 +112,8 @@
 					<height>7</height>
 					<orientation>horizontal</orientation>
 					<showonepage>true</showonepage>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 					<onup>3</onup>
 					<ondown>5</ondown>
 				</control>
@@ -158,7 +158,7 @@
 					<font>breadcrumb</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>35059</label>
 				</control>
 				<!--Feature types grouplist-->
@@ -183,8 +183,8 @@
 					<height>7</height>
 					<orientation>horizontal</orientation>
 					<showonepage>true</showonepage>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 					<onup>5</onup>
 					<ondown>9001</ondown>
 				</control>

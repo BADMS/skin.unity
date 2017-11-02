@@ -13,7 +13,7 @@
 			<control type="image" id="1">
 				<width>1140</width>
 				<height>85</height>
-				<texture colordiffuse="tertiary">backgrounds/osd bg.png</texture>
+				<texture colordiffuse="$VAR[TERTIARY]">backgrounds/osd bg.png</texture>
 			</control>
 			<control type="slider" id="87">
 				<description>Seek Slider</description>
@@ -43,7 +43,7 @@
 					<label>210</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDPrevTrackNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDPrevTrackNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPrevTrackNF.png</texturenofocus>
 					<onclick>PlayerControl(Previous)</onclick>
 				</control>
 				<control type="button" id="201">
@@ -52,7 +52,7 @@
 					<label>31354</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDRewindNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDRewindNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDRewindNF.png</texturenofocus>
 					<onclick>PlayerControl(Rewind)</onclick>
 				</control>
 				<control type="togglebutton" id="202">
@@ -62,10 +62,10 @@
 					<altlabel>208</altlabel>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDPauseNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDPauseNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPauseNF.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 					<alttexturefocus colordiffuse="$VAR[Colour.500]">OSDPlayNF.png</alttexturefocus>
-					<alttexturenofocus colordiffuse="text.primary">OSDPlayNF.png</alttexturenofocus>
+					<alttexturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPlayNF.png</alttexturenofocus>
 					<onclick>PlayerControl(Play)</onclick>
 				</control>
 				<control type="button" id="203">
@@ -74,7 +74,7 @@
 					<label>31352</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDStopNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDStopNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDStopNF.png</texturenofocus>
 					<onclick>PlayerControl(Stop)</onclick>
 				</control>
 				<control type="button" id="204">
@@ -83,7 +83,7 @@
 					<label>31353</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDForwardNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDForwardNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDForwardNF.png</texturenofocus>
 					<onclick>PlayerControl(Forward)</onclick>
 				</control>
 				<control type="button" id="205">
@@ -92,7 +92,7 @@
 					<label>209</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDNextTrackNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDNextTrackNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDNextTrackNF.png</texturenofocus>
 					<onclick>PlayerControl(Next)</onclick>
 				</control>
 			</control>
@@ -114,7 +114,7 @@
 					<label>210</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDChannelUPNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDChannelUPNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDChannelUPNF.png</texturenofocus>
 					<onclick>PlayerControl(Previous)</onclick>
 				</control>
 				<control type="button" id="301">
@@ -123,7 +123,7 @@
 					<label>31354</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDChannelDownNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDChannelDownNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDChannelDownNF.png</texturenofocus>
 					<onclick>PlayerControl(Next)</onclick>
 				</control>
 				<control type="button" id="302">
@@ -132,7 +132,7 @@
 					<label>31354</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDRewindNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDRewindNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDRewindNF.png</texturenofocus>
 					<onclick>PlayerControl(Rewind)</onclick>
 					<enable>Player.SeekEnabled</enable>
 					<animation effect="fade" start="100" end="50" time="100" condition="!Player.SeekEnabled">Conditional</animation>
@@ -144,10 +144,10 @@
 					<altlabel>208</altlabel>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDPauseNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDPauseNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPauseNF.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 					<alttexturefocus colordiffuse="$VAR[Colour.500]">OSDPlayNF.png</alttexturefocus>
-					<alttexturenofocus colordiffuse="text.primary">OSDPlayNF.png</alttexturenofocus>
+					<alttexturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPlayNF.png</alttexturenofocus>
 					<onclick>PlayerControl(Play)</onclick>
 					<enable>Player.PauseEnabled</enable>
 					<animation effect="fade" start="100" end="50" time="100" condition="!Player.PauseEnabled">Conditional</animation>
@@ -158,7 +158,7 @@
 					<label>31351</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDStopNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDStopNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDStopNF.png</texturenofocus>
 					<onclick>PlayerControl(Stop)</onclick>
 				</control>
 				<control type="button" id="305">
@@ -167,7 +167,7 @@
 					<label>31353</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDForwardNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDForwardNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDForwardNF.png</texturenofocus>
 					<onclick>PlayerControl(Forward)</onclick>
 					<enable>Player.SeekEnabled</enable>
 					<animation effect="fade" start="100" end="50" time="100" condition="!Player.SeekEnabled">Conditional</animation>
@@ -178,7 +178,7 @@
 					<label>19019</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDChannelListNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDChannelListNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDChannelListNF.png</texturenofocus>
 					<onclick>ActivateWindow(PVROSDChannels)</onclick>
 					<onclick>Dialog.Close(VideoOSD)</onclick>
 				</control>
@@ -188,7 +188,7 @@
 					<label>$LOCALIZE[19029]$INFO[VideoPlayer.ChannelName, - ]</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDepgNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDepgNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDepgNF.png</texturenofocus>
 					<onclick>ActivateWindow(PVROSDGuide)</onclick>
 					<onclick>Dialog.Close(VideoOSD)</onclick>
 				</control>
@@ -211,7 +211,7 @@
 					<label>13395</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDVideoNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDVideoNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDVideoNF.png</texturenofocus>
 					<onclick>ActivateWindow(OSDVideoSettings)</onclick>
 				</control>
 				<control type="button" id="252">
@@ -220,7 +220,7 @@
 					<label>13396</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDAudioNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDAudioNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDAudioNF.png</texturenofocus>
 					<onclick>ActivateWindow(OSDAudioSettings)</onclick>
 				</control>
 				<control type="button" id="253">
@@ -229,7 +229,7 @@
 					<label>31355</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDBookmarksNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDBookmarksNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDBookmarksNF.png</texturenofocus>
 					<onclick>ActivateWindow(VideoBookmarks)</onclick>
 				</control>
 				<control type="group" id="698">
@@ -241,7 +241,7 @@
 						<label>31356</label>
 						<font>-</font>
 						<texturefocus colordiffuse="$VAR[Colour.500]">OSDSubtitlesNF.png</texturefocus>
-						<texturenofocus colordiffuse="text.primary">OSDSubtitlesNF.png</texturenofocus>
+						<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDSubtitlesNF.png</texturenofocus>
 						<onleft>253</onleft>
 						<onright>255</onright>
 						<onup>404</onup>
@@ -266,7 +266,7 @@
 						<label>36501</label>
 						<font>-</font>
 						<texturefocus colordiffuse="$VAR[Colour.500]">OSDStereoscopicNF.png</texturefocus>
-						<texturenofocus colordiffuse="text.primary">OSDStereoscopicNF.png</texturenofocus>
+						<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDStereoscopicNF.png</texturenofocus>
 						<onleft>250</onleft>
 						<onright>254</onright>
 						<onup>501</onup>
@@ -287,7 +287,7 @@
 					<label>31355</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDDvdNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDDvdNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDDvdNF.png</texturenofocus>
 					<onclick>PlayerControl(ShowVideoMenu)</onclick>
 					<enable>VideoPlayer.HasMenu</enable>
 					<animation effect="fade" start="100" end="50" time="100" condition="!VideoPlayer.HasMenu">Conditional</animation>
@@ -311,7 +311,7 @@
 					<label>31356</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDTeleTextNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDTeleTextNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDTeleTextNF.png</texturenofocus>
 					<onclick>ActivateWindow(Teletext)</onclick>
 				</control>
 				<control type="button" id="351">
@@ -320,7 +320,7 @@
 					<label>13395</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDVideoNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDVideoNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDVideoNF.png</texturenofocus>
 					<onclick>ActivateWindow(OSDVideoSettings)</onclick>
 				</control>
 				<control type="button" id="352">
@@ -329,7 +329,7 @@
 					<label>13396</label>
 					<font>-</font>
 					<texturefocus colordiffuse="$VAR[Colour.500]">OSDAudioNF.png</texturefocus>
-					<texturenofocus colordiffuse="text.primary">OSDAudioNF.png</texturenofocus>
+					<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDAudioNF.png</texturenofocus>
 					<onclick>ActivateWindow(OSDAudioSettings)</onclick>
 				</control>
 				<control type="group" id="698">
@@ -342,7 +342,7 @@
 						<label>36501</label>
 						<font>-</font>
 						<texturefocus colordiffuse="$VAR[Colour.500]">OSDStereoscopicNF.png</texturefocus>
-						<texturenofocus colordiffuse="text.primary">OSDStereoscopicNF.png</texturenofocus>
+						<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDStereoscopicNF.png</texturenofocus>
 						<onleft>352</onleft>
 						<onright>353</onright>
 						<onup>551</onup>
@@ -367,10 +367,10 @@
 						<altlabel>208</altlabel>
 						<font>-</font>
 						<texturefocus colordiffuse="$VAR[Colour.500]">OSDRecordOffNF.png</texturefocus>
-						<texturenofocus colordiffuse="text.primary">OSDRecordOffNF.png</texturenofocus>
+						<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDRecordOffNF.png</texturenofocus>
 						<usealttexture>Player.Recording</usealttexture>
 						<alttexturefocus colordiffuse="$VAR[Colour.500]">OSDRecordOffNF.png</alttexturefocus>
-						<alttexturenofocus colordiffuse="text.primary">OSDRecordOffNF.png</alttexturenofocus>
+						<alttexturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDRecordOffNF.png</alttexturenofocus>
 						<onleft>354</onleft>
 						<onright>300</onright>
 						<onup>1000</onup>
@@ -427,7 +427,7 @@
 						<top>0</top>
 						<width>365</width>
 						<height>80</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 					</control>
 					<!--title bg-->
 					<control type="image">
@@ -453,7 +453,7 @@
 						<height>60</height>
 						<font>menu.title</font>
 						<label>24012</label>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<aligny>center</aligny>
 					</control>
 				</control>
@@ -463,7 +463,7 @@
 					<top>0</top>
 					<width>365</width>
 					<height>70</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<control type="togglebutton" id="401">
 					<description>Download with Subtitles script</description>
@@ -484,7 +484,7 @@
 					<top>0</top>
 					<width>365</width>
 					<height>120</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 					<visible>VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled</visible>
 				</control>
 				<control type="button" id="402">
@@ -515,7 +515,7 @@
 					<top>0</top>
 					<width>365</width>
 					<height>70</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 					<visible>VideoPlayer.HasSubtitles</visible>
 				</control>
 				<control type="radiobutton" id="404">
@@ -570,7 +570,7 @@
 						<top>0</top>
 						<width>365</width>
 						<height>80</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 					</control>
 					<!--title bg-->
 					<control type="image">
@@ -595,7 +595,7 @@
 						<width>335</width>
 						<height>60</height>
 						<label>36501</label>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<aligny>center</aligny>
 					</control>
 				</control>
@@ -605,7 +605,7 @@
 					<top>0</top>
 					<width>365</width>
 					<height>70</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<control type="radiobutton" id="503">
 					<left>15</left>
@@ -624,7 +624,7 @@
 					<top>0</top>
 					<width>365</width>
 					<height>70</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<control type="button" id="502">
 					<left>15</left>
@@ -642,7 +642,7 @@
 					<top>0</top>
 					<width>365</width>
 					<height>70</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<control type="radiobutton" id="501">
 					<left>15</left>
@@ -695,7 +695,7 @@
 						<top>0</top>
 						<width>365</width>
 						<height>80</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 					</control>
 					<!--title bg-->
 					<control type="image">
@@ -720,7 +720,7 @@
 						<width>335</width>
 						<height>60</height>
 						<label>36501</label>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<aligny>center</aligny>
 					</control>
 				</control>
@@ -730,7 +730,7 @@
 					<top>0</top>
 					<width>365</width>
 					<height>70</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<control type="radiobutton" id="553">
 					<left>15</left>
@@ -749,7 +749,7 @@
 					<top>0</top>
 					<width>365</width>
 					<height>70</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<control type="button" id="552">
 					<left>15</left>
@@ -767,7 +767,7 @@
 					<top>0</top>
 					<width>365</width>
 					<height>70</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<control type="radiobutton" id="551">
 					<left>15</left>

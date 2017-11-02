@@ -51,7 +51,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>$ADDON[service.openelec.settings 600]</label>
 			</control>
 			<!--left buttons-->
@@ -71,7 +71,7 @@
 						<width>570</width>
 						<height>60</height>
 						<font>button</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -84,7 +84,7 @@
 						<top>0</top>
 						<width>355</width>
 						<height>60</height>
-						<texture colordiffuse="white">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[WHITE]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="30" time="100" condition="!Control.HasFocus(1000)">Conditional</animation>
 					</control>
 					<!--label-->
@@ -322,7 +322,7 @@
 								<width>36</width>
 								<height>36</height>
 								<aspectratio>keep</aspectratio>
-								<texture colordiffuse="text.primary">radiobutton-nofocus.png</texture>
+								<texture colordiffuse="$VAR[TEXT_PRIMARY]">radiobutton-nofocus.png</texture>
 								<visible>String.IsEqual(ListItem.Property(value), 0) | String.IsEqual(ListItem.Property(value), false) | String.IsEmpty(ListItem.Property(value))</visible>
 							</control>
 							<control type="image">
@@ -331,7 +331,7 @@
 								<width>36</width>
 								<height>36</height>
 								<aspectratio>keep</aspectratio>
-								<texture colordiffuse="text.primary">radiobutton-focus.png</texture>
+								<texture colordiffuse="$VAR[TEXT_PRIMARY]">radiobutton-focus.png</texture>
 								<visible>String.IsEqual(ListItem.Property(value), 1) | String.IsEqual(ListItem.Property(value), true)</visible>
 							</control>
 						</control>
@@ -365,7 +365,7 @@
 								<height>60</height>
 								<font>button</font>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<info>ListItem.Label</info>
 								<visible>Control.HasFocus(1100)</visible>
 							</control>
@@ -377,7 +377,7 @@
 								<height>60</height>
 								<font>button</font>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<info>ListItem.Property(value)</info>
 								<visible>!String.IsEqual(ListItem.Property(Typ), bool) + !String.IsEqual(ListItem.Property(Typ), button) + Control.HasFocus(1100)</visible>
 							</control>
@@ -433,7 +433,7 @@
 								<width>36</width>
 								<height>36</height>
 								<aspectratio>keep</aspectratio>
-								<texture colordiffuse="tertiary">radiobutton-nofocus.png</texture>
+								<texture colordiffuse="$VAR[TERTIARY]">radiobutton-nofocus.png</texture>
 								<visible>[String.IsEqual(ListItem.Property(value), 0) | String.IsEqual(ListItem.Property(value),false) | String.IsEmpty(ListItem.Property(value))] + Control.HasFocus(1100)</visible>
 							</control>
 							<control type="image">
@@ -442,7 +442,7 @@
 								<width>36</width>
 								<height>36</height>
 								<aspectratio>keep</aspectratio>
-								<texture colordiffuse="tertiary">radiobutton-focus.png</texture>
+								<texture colordiffuse="$VAR[TERTIARY]">radiobutton-focus.png</texture>
 								<visible>[String.IsEqual(ListItem.Property(value), 1) | String.IsEqual(ListItem.Property(value),true)] + Control.HasFocus(1100)</visible>
 							</control>
 							<control type="image">
@@ -451,7 +451,7 @@
 								<width>36</width>
 								<height>36</height>
 								<aspectratio>keep</aspectratio>
-								<texture colordiffuse="text.primary">radiobutton-nofocus.png</texture>
+								<texture colordiffuse="$VAR[TEXT_PRIMARY]">radiobutton-nofocus.png</texture>
 								<visible>[String.IsEqual(ListItem.Property(value), 0) | String.IsEqual(ListItem.Property(value), false) | String.IsEmpty(ListItem.Property(value))] + !Control.HasFocus(1100)</visible>
 							</control>
 							<control type="image">
@@ -460,7 +460,7 @@
 								<width>36</width>
 								<height>36</height>
 								<aspectratio>keep</aspectratio>
-								<texture colordiffuse="text.primary">radiobutton-focus.png</texture>
+								<texture colordiffuse="$VAR[TEXT_PRIMARY]">radiobutton-focus.png</texture>
 								<visible>[String.IsEqual(ListItem.Property(value), 1) | String.IsEqual(ListItem.Property(value), true)] + !Control.HasFocus(1100)</visible>
 							</control>
 						</control>
@@ -528,7 +528,7 @@
 							<height>30</height>
 							<font>secondary.info.light</font>
 							<textcolor>$VAR[Colour.500]</textcolor>
-							<label>$ADDON[service.openelec.settings 601]: [COLOR=text.primary]$INFO[ListItem.Property(Interface)][/COLOR]</label>
+							<label>$ADDON[service.openelec.settings 601]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(Interface)][/COLOR]</label>
 							<visible>!String.IsEmpty(ListItem.Property(Interface))</visible>
 						</control>
 						<!-- Connection Address -->
@@ -539,7 +539,7 @@
 							<height>30</height>
 							<font>secondary.info.light</font>
 							<textcolor>$VAR[Colour.500]</textcolor>
-							<label>$ADDON[service.openelec.settings 602]: [COLOR=text.primary]$INFO[ListItem.Property(Address)][/COLOR]</label>
+							<label>$ADDON[service.openelec.settings 602]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(Address)][/COLOR]</label>
 							<visible>String.IsEqual(ListItem.Property(State), online) | String.IsEqual(ListItem.Property(State), ready)</visible>
 						</control>
 						<!-- Method -->
@@ -550,7 +550,7 @@
 							<height>30</height>
 							<font>secondary.info.light</font>
 							<textcolor>$VAR[Colour.500]</textcolor>
-							<label>$ADDON[service.openelec.settings 603]: [COLOR=text.primary]$INFO[ListItem.Property(Method)][/COLOR]</label>
+							<label>$ADDON[service.openelec.settings 603]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(Method)][/COLOR]</label>
 						</control>
 						<!-- State -->
 						<control type="label">
@@ -560,7 +560,7 @@
 							<height>30</height>
 							<font>secondary.info.light</font>
 							<textcolor>$VAR[Colour.500]</textcolor>
-							<label>$ADDON[service.openelec.settings 604]: [COLOR=text.primary]$INFO[ListItem.Property(State)][/COLOR]</label>
+							<label>$ADDON[service.openelec.settings 604]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(State)][/COLOR]</label>
 						</control>
 						<!-- Signal strength -->
 						<control type="progress">
@@ -579,7 +579,7 @@
 							<height>30</height>
 							<font>secondary.info.small</font>
 							<align>right</align>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<info>ListItem.Property(Strength)</info>
 							<visible>String.IsEqual(ListItem.Property(netType), wifi)</visible>
 						</control>
@@ -652,7 +652,7 @@
 								<width>585</width>
 								<height>45</height>
 								<font>breadcrumb</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<visible>true</visible>
 							</control>
@@ -663,7 +663,7 @@
 								<width>250</width>
 								<height>30</height>
 								<font>secondary.info.light</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<label>[B]$ADDON[service.openelec.settings 601]:[/B] $INFO[ListItem.Property(Interface)]</label>
 								<visible>!String.IsEmpty(ListItem.Property(Interface))</visible>
 							</control>
@@ -674,7 +674,7 @@
 								<width>375</width>
 								<height>30</height>
 								<font>secondary.info.light</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<label>[B]$ADDON[service.openelec.settings 602]:[/B] $INFO[ListItem.Property(Address)]</label>
 								<visible>String.IsEqual(ListItem.Property(State), online) | String.IsEqual(ListItem.Property(State), ready)</visible>
 							</control>
@@ -685,7 +685,7 @@
 								<width>200</width>
 								<height>30</height>
 								<font>secondary.info.light</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<label>[B]$ADDON[service.openelec.settings 603]:[/B] $INFO[ListItem.Property(Method)]</label>
 							</control>
 							<!-- State -->
@@ -695,7 +695,7 @@
 								<width>200</width>
 								<height>30</height>
 								<font>secondary.info.light</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<label>[B]$ADDON[service.openelec.settings 604]:[/B] $INFO[ListItem.Property(State)]</label>
 							</control>
 							<!-- Signal strength value -->
@@ -706,7 +706,7 @@
 								<height>30</height>
 								<font>secondary.info.small</font>
 								<align>right</align>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<info>ListItem.Property(Strength)</info>
 								<visible>String.IsEqual(ListItem.Property(netType), wifi)</visible>
 							</control>
@@ -716,7 +716,7 @@
 								<top>120</top>
 								<width>965</width>
 								<height>18</height>
-								<midtexture colordiffuse="tertiary">backgrounds/white.png</midtexture>
+								<midtexture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</midtexture>
 								<info>ListItem.Property(Strength)</info>
 								<visible>String.IsEqual(ListItem.Property(netType), wifi)</visible>
 							</control>
@@ -742,7 +742,7 @@
 								<height>30</height>
 								<font>secondary.info.light</font>
 								<textcolor>$VAR[Colour.500]</textcolor>
-								<label>$ADDON[service.openelec.settings 601]: [COLOR=text.primary]$INFO[ListItem.Property(Interface)][/COLOR]</label>
+								<label>$ADDON[service.openelec.settings 601]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(Interface)][/COLOR]</label>
 								<visible>!String.IsEmpty(ListItem.Property(Interface))</visible>
 							</control>
 							<!-- Connection Address -->
@@ -753,7 +753,7 @@
 								<height>30</height>
 								<font>secondary.info.light</font>
 								<textcolor>$VAR[Colour.500]</textcolor>
-								<label>$ADDON[service.openelec.settings 602]: [COLOR=text.primary]$INFO[ListItem.Property(Address)][/COLOR]</label>
+								<label>$ADDON[service.openelec.settings 602]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(Address)][/COLOR]</label>
 								<visible>String.IsEqual(ListItem.Property(State), online) | String.IsEqual(ListItem.Property(State), ready)</visible>
 							</control>
 							<!-- Method -->
@@ -764,7 +764,7 @@
 								<height>30</height>
 								<font>secondary.info.light</font>
 								<textcolor>$VAR[Colour.500]</textcolor>
-								<label>$ADDON[service.openelec.settings 603]: [COLOR=text.primary]$INFO[ListItem.Property(Method)][/COLOR]</label>
+								<label>$ADDON[service.openelec.settings 603]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(Method)][/COLOR]</label>
 							</control>
 							<!-- State -->
 							<control type="label">
@@ -774,7 +774,7 @@
 								<height>30</height>
 								<font>secondary.info.light</font>
 								<textcolor>$VAR[Colour.500]</textcolor>
-								<label>$ADDON[service.openelec.settings 604]: [COLOR=text.primary]$INFO[ListItem.Property(State)][/COLOR]</label>
+								<label>$ADDON[service.openelec.settings 604]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(State)][/COLOR]</label>
 							</control>
 							<!-- Signal strength value -->
 							<control type="label">
@@ -784,7 +784,7 @@
 								<height>30</height>
 								<font>secondary.info.small</font>
 								<align>right</align>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<info>ListItem.Property(Strength)</info>
 								<visible>String.IsEqual(ListItem.Property(netType), wifi)</visible>
 							</control>
@@ -991,7 +991,7 @@
 							<height>30</height>
 							<font>secondary.info.light</font>
 							<textcolor>$VAR[Colour.500]</textcolor>
-							<label>$ADDON[service.openelec.settings 605]: [COLOR=text.primary]$INFO[ListItem.Property(Address)][/COLOR]</label>
+							<label>$ADDON[service.openelec.settings 605]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(Address)][/COLOR]</label>
 						</control>
 						<!-- Connected State -->
 						<control type="label">
@@ -1160,7 +1160,7 @@
 							<width>585</width>
 							<height>45</height>
 							<font>breadcrumb</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<label>[B]$INFO[ListItem.Label][/B]</label>
 							<visible>Control.HasFocus(1300)</visible>
 						</control>
@@ -1171,7 +1171,7 @@
 							<width>500</width>
 							<height>30</height>
 							<font>secondary.info.light</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<label>[B]$ADDON[service.openelec.settings 605]:[/B] $INFO[ListItem.Property(Address)]</label>
 							<visible>Control.HasFocus(1300)</visible>
 						</control>
@@ -1182,7 +1182,7 @@
 							<width>220</width>
 							<height>30</height>
 							<font>secondary.info.light</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<label>$INFO[ListItem.Property(ConnectedState)]</label>
 							<visible>Control.HasFocus(1300)</visible>
 						</control>
@@ -1205,7 +1205,7 @@
 							<height>30</height>
 							<font>secondary.info.light</font>
 							<textcolor>$VAR[Colour.500]</textcolor>
-							<label>$ADDON[service.openelec.settings 605]: [COLOR=text.primary]$INFO[ListItem.Property(Address)][/COLOR]</label>
+							<label>$ADDON[service.openelec.settings 605]: [COLOR=$VAR[TEXT_PRIMARY]]$INFO[ListItem.Property(Address)][/COLOR]</label>
 							<visible>!Control.HasFocus(1300)</visible>
 						</control>
 						<!-- Connected State -->
@@ -1262,7 +1262,7 @@
 					<label>$INFO[Container(5533).Property(InfoText)]</label>
 					<font>secondary.info.small</font>
 					<align>left</align>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 				</control>
 			</control>
 			<control type="button" id="1504">
@@ -1272,7 +1272,7 @@
 				<height>60</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="5" colordiffuse="text.primary">button-nofocus.png</texturenofocus>
+				<texturenofocus border="5" colordiffuse="$VAR[TEXT_PRIMARY]">button-nofocus.png</texturenofocus>
 				<label/>
 				<onup>1100</onup>
 				<ondown>1501</ondown>
@@ -1287,7 +1287,7 @@
 				<height>60</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="5" colordiffuse="text.primary">button-nofocus.png</texturenofocus>
+				<texturenofocus border="5" colordiffuse="$VAR[TEXT_PRIMARY]">button-nofocus.png</texturenofocus>
 				<label/>
 				<onup>1100</onup>
 				<ondown>1502</ondown>
@@ -1302,7 +1302,7 @@
 				<height>60</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="5" colordiffuse="text.primary">button-nofocus.png</texturenofocus>
+				<texturenofocus border="5" colordiffuse="$VAR[TEXT_PRIMARY]">button-nofocus.png</texturenofocus>
 				<label/>
 				<onup>1503</onup>
 				<ondown>1100</ondown>
@@ -1317,7 +1317,7 @@
 				<height>60</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="5" colordiffuse="text.primary">button-nofocus.png</texturenofocus>
+				<texturenofocus border="5" colordiffuse="$VAR[TEXT_PRIMARY]">button-nofocus.png</texturenofocus>
 				<label/>
 				<onup>1504</onup>
 				<ondown>1100</ondown>
@@ -1332,7 +1332,7 @@
 				<height>60</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<texturenofocus border="5" colordiffuse="text.primary">button-nofocus.png</texturenofocus>
+				<texturenofocus border="5" colordiffuse="$VAR[TEXT_PRIMARY]">button-nofocus.png</texturenofocus>
 				<label/>
 				<onup>1100</onup>
 				<ondown>1100</ondown>

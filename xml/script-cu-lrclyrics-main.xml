@@ -22,7 +22,7 @@
 					<font>menu.title</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$ADDON[script.cu.lrclyrics 32199]</label>
 				</control>
 				<!--secondary title-->
@@ -34,7 +34,7 @@
 					<font>kai.secondary</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[MusicPlayer.Artist] - $INFO[MusicPlayer.Title]</label>
 				</control>
 				<!-- ** Required ** Do not change <id> or <type> (Smooth scrolling list for lyrics) -->
@@ -163,8 +163,8 @@
 							<height>60</height>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
-							<selectedcolor>white</selectedcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<selectedcolor>$VAR[WHITE]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</focusedlayout>

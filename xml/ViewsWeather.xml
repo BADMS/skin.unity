@@ -28,7 +28,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>165</height>
-						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 					</control>
 					<control type="label">
 						<left>225</left>
@@ -36,7 +36,7 @@
 						<width>450</width>
 						<height>38</height>
 						<font>button.bold</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -56,7 +56,7 @@
 						<width>585</width>
 						<height>45</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -82,7 +82,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>165</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="75" time="200" condition="!Control.HasFocus(51)">Conditional</animation>
 					</control>
 					<!--background strip-->
@@ -100,7 +100,7 @@
 						<width>450</width>
 						<height>38</height>
 						<font>button.bold</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -124,7 +124,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>[COLOR=text.primary]$LOCALIZE[419] : [/COLOR]$INFO[ListItem.Property(HighTemp)]$INFO[ListItem.Property(TempUnits)]     [COLOR=text.primary]$LOCALIZE[418] : [/COLOR]$INFO[ListItem.Property(LowTemp)]$INFO[ListItem.Property(TempUnits)]</label>
+						<label>[COLOR=$VAR[TEXT_PRIMARY]]$LOCALIZE[419] : [/COLOR]$INFO[ListItem.Property(HighTemp)]$INFO[ListItem.Property(TempUnits)]     [COLOR=$VAR[TEXT_PRIMARY]]$LOCALIZE[418] : [/COLOR]$INFO[ListItem.Property(LowTemp)]$INFO[ListItem.Property(TempUnits)]</label>
 						<visible>!String.IsEmpty(ListItem.Property(HighTemp))</visible>
 					</control>
 					<control type="label">
@@ -133,7 +133,7 @@
 						<width>600</width>
 						<height>75</height>
 						<font>secondary.info</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Property(Outlook)]</label>
@@ -146,7 +146,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>165</height>
-						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 					</control>
 					<control type="label">
 						<left>0</left>
@@ -154,7 +154,7 @@
 						<width>150</width>
 						<height>180</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -174,7 +174,7 @@
 						<width>585</width>
 						<height>105</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -186,7 +186,7 @@
 						<width>885</width>
 						<height>75</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<label>$INFO[ListItem.ActualIcon]</label>
@@ -199,7 +199,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>165</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="75" time="200" condition="!Control.HasFocus(51)">Conditional</animation>
 					</control>
 					<!--background strip-->
@@ -217,7 +217,7 @@
 						<width>150</width>
 						<height>180</height>
 						<font>secondary.info</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -495,7 +495,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>223</height>
-						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 					</control>
 					<control type="label">
 						<left>0</left>
@@ -503,7 +503,7 @@
 						<width>913</width>
 						<height>45</height>
 						<font>button.bold</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -522,7 +522,7 @@
 						<width>150</width>
 						<height>60</height>
 						<font>button.bold</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -534,7 +534,7 @@
 						<width>585</width>
 						<height>205</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -546,7 +546,7 @@
 						<width>885</width>
 						<height>35</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<label>$INFO[ListItem.ActualIcon]</label>
@@ -559,7 +559,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>223</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="75" time="200" condition="!Control.HasFocus(54)">Conditional</animation>
 					</control>
 					<!--background strip-->
@@ -577,7 +577,7 @@
 						<width>913</width>
 						<height>45</height>
 						<font>button.bold</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -699,7 +699,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>340</height>
-						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 					</control>
 					<control type="label">
 						<left>0</left>
@@ -707,7 +707,7 @@
 						<width>913</width>
 						<height>45</height>
 						<font>button.bold</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -726,7 +726,7 @@
 						<width>150</width>
 						<height>120</height>
 						<font>button.bold</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -738,7 +738,7 @@
 						<width>585</width>
 						<height>205</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -750,7 +750,7 @@
 						<width>885</width>
 						<height>75</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<label>$INFO[ListItem.ActualIcon]</label>
@@ -763,7 +763,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>340</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="75" time="200" condition="!Control.HasFocus(55)">Conditional</animation>
 					</control>
 					<!--background strip-->
@@ -781,7 +781,7 @@
 						<width>913</width>
 						<height>45</height>
 						<font>button.bold</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -896,7 +896,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>165</height>
-						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 					</control>
 					<control type="label">
 						<left>0</left>
@@ -904,7 +904,7 @@
 						<width>150</width>
 						<height>180</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -924,7 +924,7 @@
 						<width>585</width>
 						<height>105</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -936,7 +936,7 @@
 						<width>885</width>
 						<height>75</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<label>$INFO[ListItem.ActualIcon]</label>
@@ -949,7 +949,7 @@
 						<top>0</top>
 						<width>909</width>
 						<height>165</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="75" time="200" condition="!Control.HasFocus(52)">Conditional</animation>
 					</control>
 					<!--background strip-->
@@ -967,7 +967,7 @@
 						<width>150</width>
 						<height>180</height>
 						<font>secondary.info</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -1243,7 +1243,7 @@
 				<top>-20</top>
 				<width>970</width>
 				<height>730</height>
-				<texture border="20" colordiffuse="tertiary">backgrounds/info bg.png</texture>
+				<texture border="20" colordiffuse="$VAR[TERTIARY]">backgrounds/info bg.png</texture>
 			</control>
 			<!--sub title background-->
 			<control type="image">
@@ -1287,7 +1287,7 @@
 				<label>$INFO[Container(53).ListItem.Label]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="list" id="53">
 				<left>0</left>
@@ -1432,7 +1432,7 @@
 				<top>-20</top>
 				<width>970</width>
 				<height>730</height>
-				<texture border="20" colordiffuse="tertiary">backgrounds/info bg.png</texture>
+				<texture border="20" colordiffuse="$VAR[TERTIARY]">backgrounds/info bg.png</texture>
 			</control>
 			<!--sub title background-->
 			<control type="image">
@@ -1448,7 +1448,7 @@
 				<width>930</width>
 				<height>50</height>
 				<font>kai.secondary</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$LOCALIZE[33050]</label>
@@ -1461,7 +1461,7 @@
 					<width>890</width>
 					<height>598</height>
 					<font>secondary.info</font>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<selectedcolor>selected</selectedcolor>
 					<align>center</align>
 					<label>$INFO[Window.Property(Alerts)]</label>
@@ -1474,7 +1474,7 @@
 				<width>890</width>
 				<height>45</height>
 				<font>secondary.info</font>
-				<textcolor>text.primary</textcolor>
+				<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$LOCALIZE[19055]</label>

@@ -44,7 +44,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>-</label>
 				</control>
 				<!--options-->
@@ -66,8 +66,8 @@
 					<left>1175</left>
 					<top>100</top>
 					<bottom>140</bottom>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 					<onleft>5</onleft>
 					<onright>9001</onright>
 				</control>

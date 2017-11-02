@@ -47,7 +47,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 				</control>
 				<!--file count (simple)-->
 				<control type="label">
@@ -59,7 +59,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<scroll>false</scroll>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[Container(3).NumItems] $LOCALIZE[31025] ($LOCALIZE[31024] $INFO[Container(3).CurrentPage]/$INFO[Container(3).NumPages])</label>
 					<visible>Control.IsVisible(3)</visible>
 				</control>
@@ -73,7 +73,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<scroll>false</scroll>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[Container(6).NumItems] $LOCALIZE[31025] ($LOCALIZE[31024] $INFO[Container(6).CurrentPage]/$INFO[Container(6).NumPages])</label>
 					<visible>Control.IsVisible(6)</visible>
 				</control>
@@ -107,7 +107,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
@@ -131,7 +131,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
@@ -166,7 +166,7 @@
 							<top>5</top>
 							<width>115</width>
 							<height>115</height>
-							<texture colordiffuse="text.primary">$INFO[Listitem.Icon]</texture>
+							<texture colordiffuse="$VAR[TEXT_PRIMARY]">$INFO[Listitem.Icon]</texture>
 							<visible>String.Contains(ListItem.Icon,Default)</visible>
 						</control>
 						<!--title-->
@@ -178,7 +178,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>top</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<label>[B]$INFO[ListItem.Label][/B]</label>
 						</control>
@@ -191,7 +191,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>top</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<label>$INFO[ListItem.Label2]</label>
 						</control>
@@ -223,7 +223,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>top</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 							<label>[B]$INFO[ListItem.Label][/B]</label>
 						</control>
@@ -236,7 +236,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>top</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<label>$INFO[ListItem.Label2]</label>
 						</control>
 					</focusedlayout>
@@ -247,8 +247,8 @@
 					<bottom>93</bottom>
 					<orientation>vertical</orientation>
 					<showonepage>false</showonepage>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 					<onleft>3</onleft>
 					<onright>3</onright>
 					<ondown>61</ondown>
@@ -262,8 +262,8 @@
 					<bottom>90</bottom>
 					<orientation>vertical</orientation>
 					<showonepage>false</showonepage>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 					<onleft>6</onleft>
 					<onright>6</onright>
 					<ondown>61</ondown>

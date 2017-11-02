@@ -44,7 +44,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 			<control type="label" id="4">
 				<description>List Label</description>
@@ -77,7 +77,7 @@
 						<font>label</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
@@ -101,7 +101,7 @@
 						<font>label</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
@@ -113,8 +113,8 @@
 				<top>180</top>
 				<height>550</height>
 				<orientation>vertical</orientation>
-				<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-				<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+				<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+				<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 				<onleft>10</onleft>
 				<onright>9001</onright>
 			</control>

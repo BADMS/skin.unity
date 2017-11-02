@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+<variable name="BUTTON_NF">
+    <value condition="!String.IsEmpty(Window(home).Property(ImageColorSEVEN))">$INFO[Window(home).Property(ImageColorSEVEN)]</value>
+    <value>button.nf</value>
+</variable>
+<variable name="TERTIARY">
+    <value condition="!String.IsEmpty(Window(home).Property(ImageCColorSEVEN))">$INFO[Window(home).Property(ImageCColorSEVEN)]</value>
+    <value>tertiary</value>
+</variable>
+<variable name="TERTIARYTWO">
+    <value condition="!String.IsEmpty(Window(home).Property(ImageCColorSEVEN))">$INFO[Window(home).Property(ImageCColorSEVEN)]</value>
+    <value>tertiary2</value>
+</variable>
+<variable name="WHITE">
+    <value condition="!String.IsEmpty(Window(home).Property(ImageCColorSEVEN))">$INFO[Window(home).Property(ImageCColorSEVEN)]</value>
+    <value>white</value>
+</variable>
+<variable name="TEXT_PRIMARY">
+    <value condition="!String.IsEmpty(Window(home).Property(ImageColorSEVEN))">$INFO[Window(home).Property(ImageColorSEVEN)]</value>
+    <value>text.primary</value>
+</variable>
+<variable name="SECONDARY">
+    <value condition="!String.IsEmpty(Window(home).Property(ImageColorSEVEN))">$INFO[Window(home).Property(ImageColorSEVEN)]</value>
+    <value>secondary</value>
+</variable>
+<variable name="SCROLL_SECONDARY">
+    <value condition="!String.IsEmpty(Window(home).Property(ImageCColorSEVEN))">$INFO[Window(home).Property(ImageCColorSEVEN)]</value>
+    <value>scroll.secondary</value>
+</variable>
+<variable name="CBOXBackgroundVar">
+	<!-- extrafanart background -->
+	<value condition="!String.IsEmpty(Listitem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
+	<value condition="!String.IsEmpty(Listitem.Art(Thumb))">$INFO[ListItem.Art(Thumb)]</value>
+	<value condition="!String.IsEmpty(Listitem.Thumb)">$INFO[ListItem.Thumb]</value>
+	<!--<value condition="String.Contains(Skin.String(CustomBackgroundPath),VAR)">$VAR[CustomBackgroundPath]</value>-->
+	<value condition="Skin.HasSetting(UseCustomBackground) + Skin.String(CustomBackgroundPath)">$INFO[Skin.String(CustomBackgroundPath)]</value>
+	<!-- global background -->
+	<value>$INFO[Skin.CurrentTheme,special://skin/extras/backgrounds/,.jpg]</value>
+</variable>
+<variable name="CBOXBackgroundVarInfo">
+	<!-- extrafanart background -->
+	<value condition="!String.IsEmpty(Window(home).Property(ImageFilterFIVE))">$INFO[Window(home).Property(ImageFilterFIVE)]</value>
+	</variable>
+</includes>

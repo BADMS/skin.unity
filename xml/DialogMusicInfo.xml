@@ -44,7 +44,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>$VAR[MusicInfoHeader]</label>
 			</control>
 			<!--main content-->
@@ -76,7 +76,7 @@
 							<width>1310</width>
 							<height>460</height>
 							<font>font30_title</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -129,8 +129,8 @@
 								<font>secondary.info</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
-								<selectedcolor>text.primary</selectedcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+								<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 								<label>$INFO[ListItem.Label2]</label>
 							</control>
 						</itemlayout>
@@ -163,8 +163,8 @@
 								<font>secondary.info</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
-								<selectedcolor>text.primary</selectedcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+								<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 								<label>$INFO[ListItem.Label2]</label>
 							</control>
 						</focusedlayout>
@@ -273,8 +273,8 @@
 								<font>secondary.info</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
-								<selectedcolor>text.primary</selectedcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+								<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</itemlayout>
@@ -307,8 +307,8 @@
 								<font>secondary.info</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
-								<selectedcolor>text.primary</selectedcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+								<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</focusedlayout>
@@ -429,8 +429,8 @@
 								<font>secondary.info</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
-								<selectedcolor>text.primary</selectedcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+								<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</itemlayout>
@@ -463,8 +463,8 @@
 								<font>secondary.info</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
-								<selectedcolor>text.primary</selectedcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+								<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</focusedlayout>
@@ -543,8 +543,8 @@
 					<onright>50</onright>
 					<ondown>9000</ondown>
 					<onup>49</onup>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 				</control>
 				<!--description-->
 				<control type="textbox" id="4">
@@ -554,7 +554,7 @@
 					<width>1310</width>
 					<font>label</font>
 					<align>left</align>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<pagecontrol>61</pagecontrol>
 					<autoscroll delay="10000" time="3000" repeat="15000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
 					<visible>!Control.IsVisible(50)</visible>
@@ -575,7 +575,7 @@
 					<top>695</top>
 					<width>240</width>
 					<height>370</height>
-					<texture colordiffuse="text.primary">DefaultAlbumCover.png</texture>
+					<texture colordiffuse="$VAR[TEXT_PRIMARY]">DefaultAlbumCover.png</texture>
 					<aspectratio>keep</aspectratio>
 					<visible>Control.IsVisible(50) + [String.IsEmpty(Container(50).Listitem.Icon) | String.IsEqual(Container(50).Listitem.Icon,DefaultAlbumCover.png)]</visible>
 				</control>
@@ -598,7 +598,7 @@
 							<top>0</top>
 							<width>520</width>
 							<height>60</height>
-							<texture background="true" colordiffuse="tertiary">backgrounds/white.png</texture>
+							<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 							<animation effect="fade" start="100" end="25" time="0" condition="true">Conditional</animation>
 						</control>
 						<control type="label">
@@ -641,7 +641,7 @@
 							<font>button</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
@@ -653,7 +653,7 @@
 							<font>button</font>
 							<align>right</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<label>$INFO[ListItem.Label2]</label>
 						</control>
@@ -664,7 +664,7 @@
 							<top>0</top>
 							<width>520</width>
 							<height>60</height>
-							<texture background="true" colordiffuse="tertiary">backgrounds/white.png</texture>
+							<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 							<animation effect="fade" start="100" end="25" time="0" condition="true">Conditional</animation>
 						</control>
 						<control type="label">
@@ -707,7 +707,7 @@
 							<font>button</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<label>$INFO[ListItem.TrackNumber] - $INFO[ListItem.Label]</label>
 						</control>
@@ -719,7 +719,7 @@
 							<font>button</font>
 							<align>right</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<label>$INFO[ListItem.Duration]</label>
 						</control>
@@ -730,7 +730,7 @@
 							<top>0</top>
 							<width>520</width>
 							<height>60</height>
-							<texture background="true" colordiffuse="tertiary">backgrounds/white.png</texture>
+							<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 							<animation effect="fade" start="100" end="25" time="0" condition="true">Conditional</animation>
 						</control>
 						<control type="label">
@@ -762,7 +762,7 @@
 							<font>button</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
@@ -784,9 +784,9 @@
 						<param name="button-id" value="6" />
 						<param name="button-width" value="145" />
 						<param name="button-texture" value="refreshbutton" />
-						<param name="button-colormain" value="white" />
+						<param name="button-colormain" value="$VAR[WHITE]" />
 						<param name="button-coloralt" value="$VAR[Colour.900]" />
-						<param name="button-coloranim" value="white" />
+						<param name="button-coloranim" value="$VAR[WHITE]" />
 						<param name="button-onup" value="50" />
 						<param name="button-ondown" value="49" />
 						<param name="button-onleft" value="7" />
@@ -797,9 +797,9 @@
 						<param name="button-id" value="10" />
 						<param name="button-width" value="170" />
 						<param name="button-texture" value="artbutton" />
-						<param name="button-colormain" value="white" />
+						<param name="button-colormain" value="$VAR[WHITE]" />
 						<param name="button-coloralt" value="$VAR[Colour.900]" />
-						<param name="button-coloranim" value="white" />
+						<param name="button-coloranim" value="$VAR[WHITE]" />
 						<param name="button-onup" value="50" />
 						<param name="button-ondown" value="49" />
 						<param name="button-onleft" value="6" />
@@ -810,9 +810,9 @@
 						<param name="button-id" value="12" />
 						<param name="button-width" value="195" />
 						<param name="button-texture" value="browsebutton" />
-						<param name="button-colormain" value="white" />
+						<param name="button-colormain" value="$VAR[WHITE]" />
 						<param name="button-coloralt" value="$VAR[Colour.900]" />
-						<param name="button-coloranim" value="white" />
+						<param name="button-coloranim" value="$VAR[WHITE]" />
 						<param name="button-onup" value="50" />
 						<param name="button-ondown" value="49" />
 						<param name="button-onleft" value="10" />
@@ -823,9 +823,9 @@
 						<param name="button-id" value="7" />
 						<param name="button-width" value="170" />
 						<param name="button-texture" value="ratingbutton" />
-						<param name="button-colormain" value="white" />
+						<param name="button-colormain" value="$VAR[WHITE]" />
 						<param name="button-coloralt" value="$VAR[Colour.900]" />
-						<param name="button-coloranim" value="white" />
+						<param name="button-coloranim" value="$VAR[WHITE]" />
 						<param name="button-onup" value="50" />
 						<param name="button-ondown" value="49" />
 						<param name="button-onleft" value="12" />

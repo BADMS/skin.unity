@@ -40,7 +40,7 @@
 					<font>menu.title</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[19222] - $INFO[VideoPlayer.ChannelName]</label>
 					<visible>!pvr.IsPlayingRadio</visible>
 				</control>
@@ -53,7 +53,7 @@
 					<font>menu.title</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[19222] - $INFO[MusicPlayer.ChannelName]</label>
 					<visible>pvr.IsPlayingRadio</visible>
 				</control>
@@ -66,7 +66,7 @@
 					<font>kai.secondary</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[Container(11).ListItem.StartDate] • $INFO[Container(11).NumItems] $LOCALIZE[31025] ($LOCALIZE[31024] $INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages])</label>
 				</control>
 				<control type="list" id="11">
@@ -159,7 +159,7 @@
 							<width>150</width>
 							<height>45</height>
 							<font>label</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -198,7 +198,7 @@
 							<width>435</width>
 							<height>45</height>
 							<font>label</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>right</align>
 							<aligny>center</aligny>
@@ -211,7 +211,7 @@
 							<width>360</width>
 							<height>45</height>
 							<font>label</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>right</align>
 							<aligny>center</aligny>

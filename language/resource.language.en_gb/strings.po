@@ -1,9 +1,9 @@
-# Addon Name: Unity
-# Addon id: skin.unity
+# Addon Name: Unityx
+# Addon id: skin.unityx
 # Addon Provider: Bumpaneer
 msgid ""
 msgstr ""
-"Project-Id-Version: Unity\n"
+"Project-Id-Version: Unityx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2017-03-23 19:00+0000\n"

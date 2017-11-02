@@ -47,7 +47,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[24003]</label>
 				</control>
 				<control type="image">
@@ -68,7 +68,7 @@
 					<aligny>center</aligny>
 					<font>secondary.info.big</font>
 					<label>[B]$INFO[ListItem.AddonName][/B]</label>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<scroll>true</scroll>
 				</control>
 				<control type="group">
@@ -202,7 +202,7 @@
 							<align>right</align>
 							<aligny>center</aligny>
 							<font>label</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						</control>
 						<control type="textbox" id="400">
 							<description>Description</description>
@@ -212,7 +212,7 @@
 							<height>333</height>
 							<font>label</font>
 							<align>justify</align>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<label>$INFO[ListItem.AddonDescription]</label>
 							<pagecontrol>60</pagecontrol>
 						</control>
@@ -221,8 +221,8 @@
 							<left>825</left>
 							<top>292</top>
 							<height>335</height>
-							<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-							<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+							<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+							<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 							<onleft>9000</onleft>
 							<onright>61</onright>
 						</control>
@@ -246,7 +246,7 @@
 							<height>100</height>
 							<font>label</font>
 							<align>left</align>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<label>$INFO[ListItem.AddonDisclaimer]</label>
 							<autoscroll time="2000" delay="3000" repeat="5000">true</autoscroll>
 						</control>
@@ -263,7 +263,7 @@
 							<align>right</align>
 							<aligny>center</aligny>
 							<font>label</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						</control>
 						<control type="textbox" id="401">
 							<description>Description</description>
@@ -273,7 +273,7 @@
 							<height>435</height>
 							<font>label</font>
 							<align>justify</align>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<label>$INFO[ListItem.AddonDescription]</label>
 							<pagecontrol>61</pagecontrol>
 						</control>
@@ -284,8 +284,8 @@
 							<height>437</height>
 							<orientation>vertical</orientation>
 							<showonepage>false</showonepage>
-							<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-							<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+							<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+							<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 							<onleft>60</onleft>
 							<onright>9000</onright>
 						</control>
@@ -307,8 +307,8 @@
 						<height>64</height>
 						<label>24020</label>
 						<align>center</align>
-						<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
-						<textcolor>white</textcolor>
+						<texturefocus colordiffuse="$VAR[WHITE]">backgrounds/white.png</texturefocus>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<focusedcolor>$VAR[Colour.900]</focusedcolor>
 						<selectedcolor>$VAR[Colour.900]</selectedcolor>
 						<disabledcolor>$VAR[Colour.400]</disabledcolor>
@@ -319,8 +319,8 @@
 						<height>64</height>
 						<label>24069</label>
 						<align>center</align>
-						<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
-						<textcolor>white</textcolor>
+						<texturefocus colordiffuse="$VAR[WHITE]">backgrounds/white.png</texturefocus>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<focusedcolor>$VAR[Colour.900]</focusedcolor>
 						<selectedcolor>$VAR[Colour.900]</selectedcolor>
 						<disabledcolor>$VAR[Colour.400]</disabledcolor>
@@ -332,13 +332,13 @@
 						<label>21340</label>
 						<align>center</align>
 						<textureradioonfocus colordiffuse="$VAR[Colour.900]">radiobutton-focus.png</textureradioonfocus>
-						<textureradioonnofocus colordiffuse="white">radiobutton-focus.png</textureradioonnofocus>
+						<textureradioonnofocus colordiffuse="$VAR[WHITE]">radiobutton-focus.png</textureradioonnofocus>
 						<textureradioondisabled colordiffuse="$VAR[Colour.400]">radiobutton-focus.png</textureradioondisabled>
 						<textureradioofffocus colordiffuse="$VAR[Colour.900]">radiobutton-nofocus.png</textureradioofffocus>
-						<textureradiooffnofocus colordiffuse="white">radiobutton-nofocus.png</textureradiooffnofocus>
+						<textureradiooffnofocus colordiffuse="$VAR[WHITE]">radiobutton-nofocus.png</textureradiooffnofocus>
 						<textureradiooffdisabled colordiffuse="$VAR[Colour.400]">radiobutton-nofocus.png</textureradiooffdisabled>
-						<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
-						<textcolor>white</textcolor>
+						<texturefocus colordiffuse="$VAR[WHITE]">backgrounds/white.png</texturefocus>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<focusedcolor>$VAR[Colour.900]</focusedcolor>
 						<disabledcolor>$VAR[Colour.400]</disabledcolor>
 					</control>
@@ -348,8 +348,8 @@
 						<height>64</height>
 						<label>518</label>
 						<align>center</align>
-						<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
-						<textcolor>white</textcolor>
+						<texturefocus colordiffuse="$VAR[WHITE]">backgrounds/white.png</texturefocus>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<focusedcolor>$VAR[Colour.900]</focusedcolor>
 						<selectedcolor>$VAR[Colour.900]</selectedcolor>
 						<disabledcolor>$VAR[Colour.400]</disabledcolor>
@@ -360,8 +360,8 @@
 						<height>64</height>
 						<label>24022</label>
 						<align>center</align>
-						<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
-						<textcolor>white</textcolor>
+						<texturefocus colordiffuse="$VAR[WHITE]">backgrounds/white.png</texturefocus>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<focusedcolor>$VAR[Colour.900]</focusedcolor>
 						<selectedcolor>$VAR[Colour.900]</selectedcolor>
 						<disabledcolor>$VAR[Colour.400]</disabledcolor>
@@ -372,8 +372,8 @@
 						<height>64</height>
 						<label>24021</label>
 						<align>center</align>
-						<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
-						<textcolor>white</textcolor>
+						<texturefocus colordiffuse="$VAR[WHITE]">backgrounds/white.png</texturefocus>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<focusedcolor>$VAR[Colour.900]</focusedcolor>
 						<selectedcolor>$VAR[Colour.900]</selectedcolor>
 						<disabledcolor>$VAR[Colour.400]</disabledcolor>
@@ -405,7 +405,7 @@
 						<top>20</top>
 						<width>90</width>
 						<height>90</height>
-						<texture colordiffuse="text.primary">DefaultIconError.png</texture>
+						<texture colordiffuse="$VAR[TEXT_PRIMARY]">DefaultIconError.png</texture>
 					</control>
 					<control type="label">
 						<description>header label</description>
@@ -417,7 +417,7 @@
 						<label>24096</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					</control>
 					<control type="textbox">
 						<description>Reason label</description>
@@ -428,7 +428,7 @@
 						<font>kai.secondary</font>
 						<label>$INFO[ListItem.AddonBroken]</label>
 						<align>left</align>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					</control>
 				</control>
 			</control>

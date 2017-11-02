@@ -74,7 +74,7 @@
 					<font>info.title</font>
 					<align>right</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 				</control>
 				<!--video label-->
 				<control type="label">
@@ -85,7 +85,7 @@
 					<font>breadcrumb</font>
 					<align>right</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[Player.Filename]</label>
 				</control>
 				<control type="image" id="110">
@@ -105,7 +105,7 @@
 					<font>kai.secondary</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<wrapmultiline>true</wrapmultiline>
 				</control>
 			</control>
@@ -146,7 +146,7 @@
 							<top>20</top>
 							<width>30</width>
 							<height>18</height>
-							<texture colordiffuse="text.primary">Subtitles/icon_close_caption.png</texture>
+							<texture colordiffuse="$VAR[TEXT_PRIMARY]">Subtitles/icon_close_caption.png</texture>
 							<visible>ListItem.property(hearing_imp)</visible>
 						</control>
 						<control type="image">
@@ -154,7 +154,7 @@
 							<top>20</top>
 							<width>60</width>
 							<height>18</height>
-							<texture colordiffuse="text.primary">Subtitles/icon_sync.png</texture>
+							<texture colordiffuse="$VAR[TEXT_PRIMARY]">Subtitles/icon_sync.png</texture>
 							<visible>ListItem.property(sync)</visible>
 						</control>
 						<control type="label">
@@ -173,7 +173,7 @@
 							<top>16</top>
 							<width>135</width>
 							<height>26</height>
-							<texture fallback="ratings/0.png" colordiffuse="text.primary">$INFO[ListItem.ActualIcon,ratings/,.png]]</texture>
+							<texture fallback="ratings/0.png" colordiffuse="$VAR[TEXT_PRIMARY]">$INFO[ListItem.ActualIcon,ratings/,.png]]</texture>
 							<aspectratio>keep</aspectratio>
 						</control>
 					</itemlayout>
@@ -200,7 +200,7 @@
 							<height>55</height>
 							<font>label</font>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<info>ListItem.Label</info>
@@ -228,7 +228,7 @@
 							<height>55</height>
 							<font>label</font>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<info>ListItem.Label2</info>
@@ -256,7 +256,7 @@
 					<onup>120</onup>
 					<textoffsetx>15</textoffsetx>
 					<showonepage>false</showonepage>
-					<focusedcolor>text.primary</focusedcolor>
+					<focusedcolor>$VAR[TEXT_PRIMARY]</focusedcolor>
 					<textureupfocus colordiffuse="$VAR[Colour.500]">scroll-up-2.png</textureupfocus>
 					<texturedownfocus colordiffuse="$VAR[Colour.500]">scroll-down-2.png</texturedownfocus>
 					<visible>Control.IsVisible(120)</visible>
@@ -272,7 +272,7 @@
 						<control type="image">
 							<width>45</width>
 							<height>45</height>
-							<texture colordiffuse="text.primary">DefaultIconInfo.png</texture>
+							<texture colordiffuse="$VAR[TEXT_PRIMARY]">DefaultIconInfo.png</texture>
 						</control>
 						<control type="label">
 							<description>notification</description>
@@ -301,7 +301,7 @@
 					<font>menu.title</font>
 					<align>center</align>
 					<aligny>top</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<wrapmultiline>true</wrapmultiline>
 				</control>
 				<control type="list" id="150">
@@ -323,7 +323,7 @@
 							<height>55</height>
 							<font>button</font>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<info>ListItem.Label</info>
@@ -335,7 +335,7 @@
 							<top>0</top>
 							<width>335</width>
 							<height>55</height>
-							<texture colordiffuse="white">backgrounds/white.png</texture>
+							<texture colordiffuse="$VAR[WHITE]">backgrounds/white.png</texture>
 							<visible>Control.HasFocus(150)</visible>
 						</control>
 						<control type="label">
@@ -378,8 +378,8 @@
 					<ondown>150</ondown>
 					<font>button</font>
 					<label>$LOCALIZE[24120]</label>
-					<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
-					<textcolor>white</textcolor>
+					<texturefocus colordiffuse="$VAR[WHITE]">backgrounds/white.png</texturefocus>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<focusedcolor>$VAR[Colour.900]</focusedcolor>
 					<align>center</align>
 				</control>

@@ -50,7 +50,7 @@
 						<width>51</width>
 						<height>70</height>
 						<font>label</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<aligny>center</aligny>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
@@ -65,8 +65,8 @@
 						<font>label</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
-						<selectedcolor>white</selectedcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
+						<selectedcolor>$VAR[WHITE]</selectedcolor>
 						<info>ListItem.ChannelNumber</info>
 					</control>
 					<control type="label" id="1">
@@ -75,7 +75,7 @@
 						<height>72</height>
 						<font>label</font>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.ChannelName]</label>
@@ -129,7 +129,7 @@
 						<height>38</height>
 						<font>label</font>
 						<aligny>center</aligny>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<info>ListItem.Label</info>
@@ -175,7 +175,7 @@
 						<height>38</height>
 						<font>label</font>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<info>ListItem.Label</info>
@@ -233,7 +233,7 @@
 					<height>30</height>
 					<label>[B]$INFO[ListItem.Label][/B]</label>
 					<font>kai.primary</font>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 				</control>
 				<control type="label">
 					<left>400</left>
@@ -242,7 +242,7 @@
 					<height>30</height>
 					<label>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ]$INFO[ListItem.Genre, • ]</label>
 					<font>secondary.info.light</font>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 				</control>
 				<control type="textbox">
 					<description>Plot value</description>
@@ -252,7 +252,7 @@
 					<height>48</height>
 					<font>kai.secondary</font>
 					<align>justify</align>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<autoscroll delay="10000" time="3000" repeat="6000">true</autoscroll>
 					<label>$INFO[ListItem.Plot]</label>
 				</control>
@@ -287,7 +287,7 @@
 					<width>150</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>555</label>
@@ -299,7 +299,7 @@
 					<width>375</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>19148</label>
@@ -311,7 +311,7 @@
 					<width>825</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>369</label>
@@ -323,7 +323,7 @@
 					<width>210</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>126</label>
@@ -349,7 +349,7 @@
 								<top>0</top>
 								<width>1650</width>
 								<height>60</height>
-								<texture background="true" colordiffuse="button.nf">backgrounds/white.png</texture>
+								<texture background="true" colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 							</control>
 							<control type="label">
 								<left>0</left>
@@ -359,7 +359,7 @@
 								<font>label</font>
 								<align>center</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.StartTime</info>
 							</control>
@@ -379,7 +379,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 							</control>
@@ -391,7 +391,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -412,7 +412,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -434,7 +434,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
@@ -447,7 +447,7 @@
 								<top>0</top>
 								<width>1650</width>
 								<height>150</height>
-								<texture background="true" colordiffuse="tertiary">backgrounds/white.png</texture>
+								<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 								<animation effect="fade" start="100" end="75" time="0" condition="!Control.HasFocus(11)">Conditional</animation>
 							</control>
 							<!--background nib-->
@@ -483,7 +483,7 @@
 								<font>label</font>
 								<align>center</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.StartTime</info>
 							</control>
@@ -503,7 +503,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 							</control>
@@ -515,7 +515,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -527,7 +527,7 @@
 								<height>80</height>
 								<font>secondary.info</font>
 								<align>justify</align>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<pagecontrol>-</pagecontrol>
 								<label>$INFO[ListItem.Plot]</label>
 							</control>
@@ -548,7 +548,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -570,7 +570,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
@@ -618,7 +618,7 @@
 					<width>150</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>555</label>
@@ -630,7 +630,7 @@
 					<width>375</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>19148</label>
@@ -642,7 +642,7 @@
 					<width>825</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>369</label>
@@ -654,7 +654,7 @@
 					<width>210</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>126</label>
@@ -681,7 +681,7 @@
 								<top>0</top>
 								<width>1650</width>
 								<height>60</height>
-								<texture background="true" colordiffuse="button.nf">backgrounds/white.png</texture>
+								<texture background="true" colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 							</control>
 							<control type="label">
 								<left>0</left>
@@ -691,7 +691,7 @@
 								<font>label</font>
 								<align>center</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.StartTime</info>
 							</control>
@@ -711,7 +711,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 							</control>
@@ -723,7 +723,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -744,7 +744,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -766,7 +766,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
@@ -779,7 +779,7 @@
 								<top>0</top>
 								<width>1650</width>
 								<height>150</height>
-								<texture background="true" colordiffuse="tertiary">backgrounds/white.png</texture>
+								<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 								<animation effect="fade" start="100" end="75" time="0" condition="!Control.HasFocus(12)">Conditional</animation>
 							</control>
 							<!--background nib-->
@@ -815,7 +815,7 @@
 								<font>label</font>
 								<align>center</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.StartTime</info>
 							</control>
@@ -835,7 +835,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 							</control>
@@ -847,7 +847,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -859,7 +859,7 @@
 								<height>80</height>
 								<font>secondary.info</font>
 								<align>justify</align>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<pagecontrol>-</pagecontrol>
 								<label>$INFO[ListItem.Plot]</label>
 							</control>
@@ -880,7 +880,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -902,7 +902,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
@@ -950,7 +950,7 @@
 					<width>150</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>555</label>
@@ -962,7 +962,7 @@
 					<width>375</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>19148</label>
@@ -974,7 +974,7 @@
 					<width>825</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>369</label>
@@ -986,7 +986,7 @@
 					<width>210</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>126</label>
@@ -1012,7 +1012,7 @@
 								<top>0</top>
 								<width>1650</width>
 								<height>60</height>
-								<texture background="true" colordiffuse="button.nf">backgrounds/white.png</texture>
+								<texture background="true" colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 							</control>
 							<control type="label">
 								<left>0</left>
@@ -1022,7 +1022,7 @@
 								<font>label</font>
 								<align>center</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.StartTime</info>
 							</control>
@@ -1042,7 +1042,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 							</control>
@@ -1054,7 +1054,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -1075,7 +1075,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -1097,7 +1097,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
@@ -1110,7 +1110,7 @@
 								<top>0</top>
 								<width>1650</width>
 								<height>150</height>
-								<texture background="true" colordiffuse="tertiary">backgrounds/white.png</texture>
+								<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 								<animation effect="fade" start="100" end="75" time="0" condition="!Control.HasFocus(13)">Conditional</animation>
 							</control>
 							<!--background nib-->
@@ -1146,7 +1146,7 @@
 								<font>label</font>
 								<align>center</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.StartTime</info>
 							</control>
@@ -1166,7 +1166,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 							</control>
@@ -1178,7 +1178,7 @@
 								<font>label</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -1190,7 +1190,7 @@
 								<height>80</height>
 								<font>secondary.info</font>
 								<align>justify</align>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<pagecontrol>-</pagecontrol>
 								<label>$INFO[ListItem.Plot]</label>
 							</control>
@@ -1211,7 +1211,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>19043</label>
 								<visible>ListItem.IsRecording</visible>
@@ -1233,7 +1233,7 @@
 								<font>secondary.info.light</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<label>31510</label>
 								<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>

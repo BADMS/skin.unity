@@ -44,7 +44,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>1023</label>
 				</control>
 				<!--path label-->
@@ -57,7 +57,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<scroll>false</scroll>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 				</control>
 				<!--top buttons-->
 				<control type="grouplist" id="9000">
@@ -169,7 +169,7 @@
 							<top>7</top>
 							<width>46</width>
 							<height>46</height>
-							<texture colordiffuse="text.primary">$INFO[ListItem.Icon,default small/,]</texture>
+							<texture colordiffuse="$VAR[TEXT_PRIMARY]">$INFO[ListItem.Icon,default small/,]</texture>
 							<aspectratio align="center" aligny="center">keep</aspectratio>
 							<visible>String.Contains(ListItem.Icon,default)</visible>
 						</control>
@@ -191,7 +191,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
@@ -212,7 +212,7 @@
 							<top>7</top>
 							<width>46</width>
 							<height>46</height>
-							<texture colordiffuse="white">$INFO[ListItem.Icon,default small/,]</texture>
+							<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Icon,default small/,]</texture>
 							<aspectratio align="center" aligny="center">keep</aspectratio>
 							<visible>String.Contains(ListItem.Icon,default)</visible>
 						</control>
@@ -234,7 +234,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
@@ -260,7 +260,7 @@
 							<top>5</top>
 							<width>50</width>
 							<height>50</height>
-							<texture colordiffuse="text.primary">$INFO[ListItem.Icon,default small/,]</texture>
+							<texture colordiffuse="$VAR[TEXT_PRIMARY]">$INFO[ListItem.Icon,default small/,]</texture>
 							<aspectratio align="center" aligny="center">keep</aspectratio>
 							<visible>String.Contains(ListItem.Icon,default)</visible>
 						</control>
@@ -282,7 +282,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
@@ -303,7 +303,7 @@
 							<top>5</top>
 							<width>50</width>
 							<height>50</height>
-							<texture colordiffuse="white">$INFO[ListItem.Icon,default small/,]</texture>
+							<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.Icon,default small/,]</texture>
 							<aspectratio align="center" aligny="center">keep</aspectratio>
 							<visible>String.Contains(ListItem.Icon,default)</visible>
 						</control>
@@ -325,7 +325,7 @@
 							<font>label</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
@@ -338,8 +338,8 @@
 					<bottom>26</bottom>
 					<orientation>vertical</orientation>
 					<showonepage>false</showonepage>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 					<onleft>450</onleft>
 					<onright>9000</onright>
 				</control>
@@ -353,7 +353,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<scroll>false</scroll>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[Container(450).NumItems] $LOCALIZE[31025] ($LOCALIZE[31024] $INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages])</label>
 					<visible>!Control.IsVisible(451)</visible>
 				</control>
@@ -367,7 +367,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<scroll>false</scroll>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[Container(451).NumItems] $LOCALIZE[31025] ($LOCALIZE[31024] $INFO[Container(451).CurrentPage]/$INFO[Container(451).NumPages])</label>
 					<visible>Control.IsVisible(451)</visible>
 				</control>

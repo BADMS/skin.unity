@@ -32,7 +32,7 @@
 				<width>800</width>
 				<height>100</height>
 				<font>info.title</font>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$LOCALIZE[31421]</label>
@@ -63,7 +63,7 @@
 						<top>15</top>
 						<width>120</width>
 						<height>112</height>
-						<texture colordiffuse="text.primary">DefaultUser.png</texture>
+						<texture colordiffuse="$VAR[TEXT_PRIMARY]">DefaultUser.png</texture>
 						<visible>String.IsEqual(Listitem.Icon,"DefaultUser.png")</visible>
 					</control>
 					<control type="label">
@@ -111,7 +111,7 @@
 						<width>605</width>
 						<height>60</height>
 						<font>font24_title</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -123,7 +123,7 @@
 						<width>605</width>
 						<height>38</height>
 						<font>label</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>

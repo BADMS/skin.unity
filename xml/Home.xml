@@ -34,7 +34,7 @@
 					<top>0</top>
 					<width>735</width>
 					<height>135</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<!--background strip-->
 				<control type="image">
@@ -102,7 +102,7 @@
 					<top>0</top>
 					<width>735</width>
 					<height>135</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<!--background strip-->
 				<control type="image">
@@ -212,8 +212,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Title]</label>
 						</control>
 						<!--artist-->
@@ -226,8 +226,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[MusicPlayer.Artist]</label>
 						</control>
 						<!--album-->
@@ -240,8 +240,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]: ]</label>
 						</control>
 						<!--time-->
@@ -253,8 +253,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
 						</control>
 					</control>
@@ -274,8 +274,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Title]</label>
 						</control>
 						<!--time-->
@@ -287,8 +287,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
 						</control>
 					</control>
@@ -313,8 +313,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Title]</label>
 						</control>
 						<!--channel-->
@@ -326,8 +326,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[VideoPlayer.ChannelName]</label>
 						</control>
 						<!--time-->
@@ -339,8 +339,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
 						</control>
 					</control>
@@ -366,8 +366,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Title]</label>
 						</control>
 						<!--studio-->
@@ -379,8 +379,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[VideoPlayer.Studio]</label>
 						</control>
 						<!--time-->
@@ -392,8 +392,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
 						</control>
 					</control>
@@ -420,8 +420,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Title]</label>
 						</control>
 						<!--episode-->
@@ -433,8 +433,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[VideoPlayer.TVShowTitle] ($INFO[VideoPlayer.Season,$LOCALIZE[20373] , - ]$INFO[VideoPlayer.episode,$LOCALIZE[20359] ,])</label>
 						</control>
 						<!--time-->
@@ -446,8 +446,8 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<font>breadcrumb.secondary</font>
-							<textcolor>white</textcolor>
-							<shadowcolor>button.nf</shadowcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
+							<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 							<label>$INFO[Player.Time] / $INFO[Player.Duration,]</label>
 						</control>
 					</control>
@@ -474,7 +474,7 @@
 							<top>0</top>
 							<width>776</width>
 							<height>45</height>
-							<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+							<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 							<animation effect="zoom" start="60,0,776,45" end="608,0,228,45" time="500" condition="!Player.HasMedia">conditional</animation>
 						</control>
 						<!--background strip-->
@@ -487,7 +487,7 @@
 						</control>
 						<!--global search button-->
 						<control type="radiobutton" id="608">
-							<colordiffuse>tertiary</colordiffuse>
+							<colordiffuse>$VAR[TERTIARY]</colordiffuse>
 							<left>65</left>
 							<top>5</top>
 							<height>35</height>
@@ -497,18 +497,18 @@
 							<textoffsety>3</textoffsety>
 							<align>left</align>
 							<aligny>center</aligny>
-							<font>breadcrumb.tertiary</font>
-							<textcolor>text.primary</textcolor>
-							<focusedcolor>white</focusedcolor>
+							<font>breadcrumb.$VAR[TERTIARY]</font>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+							<focusedcolor>$VAR[WHITE]</focusedcolor>
 							<texturefocus colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texturefocus>
 							<texturenofocus colordiffuse="button.border">button-border-search.png</texturenofocus>
 							<pulseonselect>false</pulseonselect>
 							<label>137</label>
 							<onclick>RunScript(script.globalsearch)</onclick>
-							<textureradioonfocus colordiffuse="white">icon_search.png</textureradioonfocus>
-							<textureradioonnofocus colordiffuse="text.primary">icon_search.png</textureradioonnofocus>
-							<textureradioofffocus colordiffuse="white">icon_search.png</textureradioofffocus>
-							<textureradiooffnofocus colordiffuse="text.primary">icon_search.png</textureradiooffnofocus>
+							<textureradioonfocus colordiffuse="$VAR[WHITE]">icon_search.png</textureradioonfocus>
+							<textureradioonnofocus colordiffuse="$VAR[TEXT_PRIMARY]">icon_search.png</textureradioonnofocus>
+							<textureradioofffocus colordiffuse="$VAR[WHITE]">icon_search.png</textureradioofffocus>
+							<textureradiooffnofocus colordiffuse="$VAR[TEXT_PRIMARY]">icon_search.png</textureradiooffnofocus>
 							<onleft>607</onleft>
 							<onright>601</onright>
 							<onup>9003</onup>
@@ -537,7 +537,7 @@
 								<top>0</top>
 								<width>308</width>
 								<height>45</height>
-								<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+								<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 							</control>
 							<!--background strip-->
 							<control type="image">
@@ -559,7 +559,7 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDPrevTrackNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDPrevTrackNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPrevTrackNF.png</texturenofocus>
 									<onleft>608</onleft>
 									<onright>602</onright>
 									<onup>9003</onup>
@@ -573,7 +573,7 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDRewindNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDRewindNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDRewindNF.png</texturenofocus>
 									<onleft>601</onleft>
 									<onright>603</onright>
 									<onup>9003</onup>
@@ -587,10 +587,10 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDPauseNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDPauseNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPauseNF.png</texturenofocus>
 									<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 									<alttexturefocus colordiffuse="$VAR[Colour.500]">OSDPlayNF.png</alttexturefocus>
-									<alttexturenofocus colordiffuse="text.primary">OSDPlayNF.png</alttexturenofocus>
+									<alttexturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPlayNF.png</alttexturenofocus>
 									<onleft>602</onleft>
 									<onright>604</onright>
 									<onup>9003</onup>
@@ -604,7 +604,7 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDStopNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDStopNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDStopNF.png</texturenofocus>
 									<onleft>603</onleft>
 									<onright>605</onright>
 									<onup>9003</onup>
@@ -619,7 +619,7 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDForwardNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDForwardNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDForwardNF.png</texturenofocus>
 									<onleft>604</onleft>
 									<onright>606</onright>
 									<onup>9003</onup>
@@ -633,7 +633,7 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDNextTrackNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDNextTrackNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDNextTrackNF.png</texturenofocus>
 									<onleft>605</onleft>
 									<onright>607</onright>
 									<onup>9003</onup>
@@ -652,7 +652,7 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDChannelUPNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDChannelUPNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDChannelUPNF.png</texturenofocus>
 									<onleft>608</onleft>
 									<onright>602</onright>
 									<onup>9003</onup>
@@ -666,7 +666,7 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDChannelDownNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDChannelDownNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDChannelDownNF.png</texturenofocus>
 									<onleft>601</onleft>
 									<onright>603</onright>
 									<onup>9003</onup>
@@ -680,7 +680,7 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDStopNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDStopNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDStopNF.png</texturenofocus>
 									<onleft>602</onleft>
 									<onright>604</onright>
 									<onup>9003</onup>
@@ -695,10 +695,10 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDPauseNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDPauseNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPauseNF.png</texturenofocus>
 									<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 									<alttexturefocus colordiffuse="$VAR[Colour.500]">OSDPlayNF.png</alttexturefocus>
-									<alttexturenofocus colordiffuse="text.primary">OSDPlayNF.png</alttexturenofocus>
+									<alttexturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDPlayNF.png</alttexturenofocus>
 									<onleft>603</onleft>
 									<onright>606</onright>
 									<onup>9003</onup>
@@ -714,7 +714,7 @@
 									<height>25</height>
 									<label>-</label>
 									<texturefocus colordiffuse="$VAR[Colour.500]">OSDRecordOffNF.png</texturefocus>
-									<texturenofocus colordiffuse="text.primary">OSDRecordOffNF.png</texturenofocus>
+									<texturenofocus colordiffuse="$VAR[TEXT_PRIMARY]">OSDRecordOffNF.png</texturenofocus>
 									<onleft>604</onleft>
 									<onright>607</onright>
 									<onup>9003</onup>
@@ -729,11 +729,11 @@
 							<top>0</top>
 							<width>250</width>
 							<height>45</height>
-							<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+							<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						</control>
 						<!--fullscreen button-->
 						<control type="radiobutton" id="607">
-							<colordiffuse>tertiary</colordiffuse>
+							<colordiffuse>$VAR[TERTIARY]</colordiffuse>
 							<left>591</left>
 							<top>5</top>
 							<height>35</height>
@@ -743,18 +743,18 @@
 							<textoffsety>8</textoffsety>
 							<align>left</align>
 							<aligny>center</aligny>
-							<font>breadcrumb.tertiary</font>
-							<textcolor>text.primary</textcolor>
-							<focusedcolor>white</focusedcolor>
+							<font>breadcrumb.$VAR[TERTIARY]</font>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+							<focusedcolor>$VAR[WHITE]</focusedcolor>
 							<texturefocus colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texturefocus>
 							<texturenofocus colordiffuse="button.border">button-border-fullscreen.png</texturenofocus>
 							<pulseonselect>false</pulseonselect>
 							<label>31008</label>
 							<onclick>fullscreen</onclick>
-							<textureradioonfocus colordiffuse="tertiary">GoFullscreen.png</textureradioonfocus>
-							<textureradioonnofocus colordiffuse="text.primary">GoFullscreen.png</textureradioonnofocus>
-							<textureradioofffocus colordiffuse="tertiary">GoFullscreen.png</textureradioofffocus>
-							<textureradiooffnofocus colordiffuse="text.primary">GoFullscreen.png</textureradiooffnofocus>
+							<textureradioonfocus colordiffuse="$VAR[TERTIARY]">GoFullscreen.png</textureradioonfocus>
+							<textureradioonnofocus colordiffuse="$VAR[TEXT_PRIMARY]">GoFullscreen.png</textureradioonnofocus>
+							<textureradioofffocus colordiffuse="$VAR[TERTIARY]">GoFullscreen.png</textureradioofffocus>
+							<textureradiooffnofocus colordiffuse="$VAR[TEXT_PRIMARY]">GoFullscreen.png</textureradiooffnofocus>
 							<onleft>606</onleft>
 							<onright>608</onright>
 							<onup>9003</onup>
@@ -788,7 +788,7 @@
 						<top>10</top>
 						<width>1800</width>
 						<height>92</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 					</control>
 					<!--main menu-->
 					<control type="fixedlist" id="9000">
@@ -822,7 +822,7 @@
 								<width>340</width>
 								<height>92</height>
 								<font>main.menu</font>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
 								<label>$INFO[ListItem.Label]</label>
@@ -850,7 +850,7 @@
 								<width>340</width>
 								<height>92</height>
 								<font>main.menu</font>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
 								<label>$INFO[ListItem.Label]</label>
@@ -870,7 +870,7 @@
 								<width>340</width>
 								<height>92</height>
 								<font>main.menu</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
 								<label>$INFO[ListItem.Label]</label>
@@ -895,7 +895,7 @@
 						<top>10</top>
 						<width>192</width>
 						<height>92</height>
-						<texture colordiffuse="tertiary">SideFade.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">SideFade.png</texture>
 					</control>
 					<!--right side fade-->
 					<control type="image">
@@ -903,7 +903,7 @@
 						<top>10</top>
 						<width>192</width>
 						<height>92</height>
-						<texture colordiffuse="tertiary" flipx="true">SideFade.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]" flipx="true">SideFade.png</texture>
 					</control>
 					<!--background strip left-->
 					<control type="image">
@@ -1001,7 +1001,7 @@
 				<control type="image">
 					<width>100%</width>
 					<height>34</height>
-					<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 				</control>
 				<!--rss background strip-->
 				<control type="image">
@@ -1020,7 +1020,7 @@
 					<urlset>1</urlset>
 					<textcolor>$VAR[Colour.500]</textcolor>
 					<titlecolor>$VAR[Colour.500]</titlecolor>
-					<headlinecolor>text.primary</headlinecolor>
+					<headlinecolor>$VAR[TEXT_PRIMARY]</headlinecolor>
 				</control>
 			</control>
 		</control>
@@ -1036,7 +1036,7 @@
 				<top>0</top>
 				<width>485</width>
 				<height>90</height>
-				<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+				<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 			</control>
 			<!--breadcrumb strip-->
 			<control type="image">
@@ -1064,7 +1064,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font10</font>
-				<textcolor>text.primary</textcolor>
+				<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 				<label>$INFO[Window(Weather).Property(Location)]</label>
 			</control>
 			<control type="grouplist">
@@ -1082,7 +1082,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font28_title</font>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[Window(Weather).Property(Current.Temperature)]</label>
 				</control>
 				<control type="label">
@@ -1092,7 +1092,7 @@
 					<font>font10</font>
 					<aligny>center</aligny>
 					<label>$INFO[System.TemperatureUnits]</label>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<visible>!String.IsEmpty(Window(Weather).Property(Current.Temperature))</visible>
 				</control>
 				<control type="label">

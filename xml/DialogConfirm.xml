@@ -41,7 +41,7 @@
 				<font>menu.title</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>-</label>
 			</control>
 			<!--message-->
@@ -55,7 +55,7 @@
 				<aligny>center</aligny>
 				<label>-</label>
 				<font>label</font>
-				<textcolor>text.primary</textcolor>
+				<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 				<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
 			</control>
 			<!--progress bar-->

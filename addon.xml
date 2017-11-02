@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-	id="skin.unity"
+	id="skin.unityx"
 	version="0.6.3"
-	name="Unity"
-	provider-name="Eddage, Bumpaneer">
+	name="Unityx"
+	provider-name="Eddage, Bumpaneer, badaas">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="1.0.8"/>
@@ -25,17 +25,17 @@
 		<summary lang="en_GB">A new skin for Kodi 13 Gotham by Eddage</summary>
 		<summary lang="en_NZ">A new skin for Kodi 13 Gotham by Eddage</summary>
 		<summary lang="en_US">A new skin for Kodi 13 Gotham by Eddage</summary>
-		<description lang="en_AU">Unity is an adaptation of Confluence based on a material design.</description>
-		<description lang="en_GB">Unity is an adaptation of Confluence based on a material design.</description>
-		<description lang="en_NZ">Unity is an adaptation of Confluence based on a material design.</description>
-		<description lang="en_US">Unity is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_AU">Unityx is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_GB">Unityx is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_NZ">Unityx is an adaptation of Confluence based on a material design.</description>
+		<description lang="en_US">Unityx is an adaptation of Confluence based on a material design.</description>
 		<disclaimer lang="en_AU">More info on the skin can be found at the Kodi Forums.</disclaimer>
 		<disclaimer lang="en_GB">More info on the skin can be found at the Kodi Forums.</disclaimer>
 		<disclaimer lang="en_NZ">More info on the skin can be found at the Kodi Forums.</disclaimer>
 		<disclaimer lang="en_US">More info on the skin can be found at the Kodi Forums.</disclaimer>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<forum>http://forum.kodi.tv/forumdisplay.php?fid=244</forum>
-		<source>https://github.com/bumpaneer/skin.unity/tree/Krypton</source>
+		<source>https://github.com/BADMS/skin.unityx/tree/Krypton</source>
 		<platform>all</platform>
 		<assets>
 			<icon>resources/icon.png</icon>

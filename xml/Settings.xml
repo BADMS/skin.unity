@@ -53,7 +53,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>$LOCALIZE[31000] $LOCALIZE[5]</label>
 			</control>
 			<!--content list-->
@@ -75,7 +75,7 @@
 						<width>325</width>
 						<height>60</height>
 						<font>button</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[Colour.500]</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -87,7 +87,7 @@
 						<top>0</top>
 						<width>355</width>
 						<height>60</height>
-						<texture colordiffuse="white">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texture>
 					</control>
 					<control type="label">
 						<left>15</left>
@@ -161,7 +161,7 @@
 				<font>label</font>
 				<label>$INFO[Container(9000).ListItem.Label2]</label>
 				<align>justify</align>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 			</control>
 		</control>
 		<include>BehindDialogFadeOut</include>

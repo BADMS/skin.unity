@@ -45,7 +45,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>-</label>
 				</control>
 				<control type="grouplist" id="9">
@@ -93,8 +93,8 @@
 				<!--category buttons-->
 				<control type="button" id="13">
 					<width>260</width>
-					<texturefocus colordiffuse="white">backgrounds/white.png</texturefocus>
-					<textcolor>white</textcolor>
+					<texturefocus colordiffuse="$VAR[WHITE]">backgrounds/white.png</texturefocus>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<focusedcolor>$VAR[Colour.900]</focusedcolor>
 					<include>ButtonCommonValues</include>
 				</control>

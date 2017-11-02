@@ -35,7 +35,7 @@
 					<width>330</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<aligny>center</aligny>
 					<label>19029</label>
 				</control>
@@ -46,7 +46,7 @@
 					<width>450</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<aligny>center</aligny>
 					<label>369</label>
 				</control>
@@ -57,7 +57,7 @@
 					<width>450</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<aligny>center</aligny>
 					<label>31501</label>
 				</control>
@@ -68,7 +68,7 @@
 					<width>180</width>
 					<height>60</height>
 					<font>button.bold</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<aligny>center</aligny>
 					<label>126</label>
 				</control>
@@ -92,7 +92,7 @@
 							<top>0</top>
 							<width>1650</width>
 							<height>60</height>
-							<texture background="true" colordiffuse="button.nf">backgrounds/white.png</texture>
+							<texture background="true" colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 						</control>
 						<control type="group">
 							<left>4</left>
@@ -105,7 +105,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -128,7 +128,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 								<visible>!String.IsEmpty(ListItem.Icon)</visible>
@@ -140,7 +140,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 								<visible>String.IsEmpty(ListItem.Icon)</visible>
@@ -152,7 +152,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -163,7 +163,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Date</info>
 							</control>
@@ -174,7 +174,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Comment</info>
 							</control>
@@ -187,7 +187,7 @@
 							<top>0</top>
 							<width>1650</width>
 							<height>60</height>
-							<texture background="true" colordiffuse="tertiary">backgrounds/white.png</texture>
+							<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						</control>
 						<!--background nib-->
 						<control type="image">
@@ -208,7 +208,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -231,7 +231,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 								<visible>!String.IsEmpty(ListItem.Icon)</visible>
@@ -243,7 +243,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.ChannelName</info>
 								<visible>String.IsEmpty(ListItem.Icon)</visible>
@@ -255,7 +255,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -266,7 +266,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Date</info>
 							</control>
@@ -277,7 +277,7 @@
 								<height>60</height>
 								<font>label</font>
 								<aligny>center</aligny>
-								<textcolor>text.primary</textcolor>
+								<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 								<selectedcolor>$VAR[Colour.500]</selectedcolor>
 								<info>ListItem.Comment</info>
 							</control>

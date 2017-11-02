@@ -45,7 +45,7 @@
 				<control type="image" id="1">
 					<width>1140</width>
 					<height>190</height>
-					<texture colordiffuse="tertiary">backgrounds/np info bg.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]">backgrounds/np info bg.png</texture>
 					<animation effect="zoom" start="0,0,1140,190" end="0,0,1140,290" center="0,-5" time="200" condition="[VideoPlayer.Content(Files) | !String.IsEmpty(VideoPlayer.Plot)] + Player.ShowInfo">Conditional</animation>
 				</control>
 				<!--title bg-->
@@ -78,7 +78,7 @@
 						<font>menu.title</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<label>$INFO[Player.Title]</label>
 						<scroll>true</scroll>
 					</control>
@@ -108,7 +108,7 @@
 						<height>108</height>
 						<align>left</align>
 						<font>label</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<label>$INFO[Player.FileNameAndPath]</label>
 						<wrapmultiline>true</wrapmultiline>
 						<visible>VideoPlayer.Content(Files) + Player.ShowInfo</visible>
@@ -121,7 +121,7 @@
 						<height>108</height>
 						<font>label</font>
 						<align>left</align>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<label>$INFO[VideoPlayer.Plot]</label>
 						<autoscroll time="1500" delay="15000" repeat="10000">Skin.HasSetting(AutoScroll)</autoscroll>
 						<visible>Player.ShowInfo</visible>

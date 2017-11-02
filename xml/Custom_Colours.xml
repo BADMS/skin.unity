@@ -41,7 +41,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>$LOCALIZE[31920]</label>
 			</control>
 			<control type="group">
@@ -56,8 +56,8 @@
 					<onup>100</onup>
 					<ondown>10</ondown>
 					<orientation>horizontal</orientation>
-					<texturesliderbackground colordiffuse="scroll.secondary">backgrounds/white.png</texturesliderbackground>
-					<texturesliderbar colordiffuse="secondary">backgrounds/white.png</texturesliderbar>
+					<texturesliderbackground colordiffuse="$VAR[SCROLL_SECONDARY]">backgrounds/white.png</texturesliderbackground>
+					<texturesliderbar colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturesliderbar>
 				</control>
 				<!--content-->
 				<control type="panel" id="100">
@@ -87,7 +87,7 @@
 							<left>20</left>
 							<top>100</top>
 							<font>menu.title</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 					</itemlayout>
@@ -98,7 +98,7 @@
 							<width>325</width>
 							<height>410</height>
 							<texture background="true">$INFO[ListItem.Thumb]</texture>
-							<bordertexture colordiffuse="text.primary">backgrounds/white.png</bordertexture>
+							<bordertexture colordiffuse="$VAR[TEXT_PRIMARY]">backgrounds/white.png</bordertexture>
 							<bordersize>5</bordersize>
 						</control>
 						<!--label-->
@@ -106,7 +106,7 @@
 							<left>20</left>
 							<top>100</top>
 							<font>menu.title</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 					</focusedlayout>
@@ -232,7 +232,7 @@
 					<right>10</right>
 					<width>50</width>
 					<height>830</height>
-					<texture colordiffuse="tertiary" flipx="true">SideFade.png</texture>
+					<texture colordiffuse="$VAR[TERTIARY]" flipx="true">SideFade.png</texture>
 				</control>
 			</control>
 			<!--buttons-->

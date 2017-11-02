@@ -93,8 +93,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>breadcrumb.secondary</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>button.nf</shadowcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
+				<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 			</control>
 			<control type="list" id="$PARAM[list_id]">
 				<animation effect="slide" start="0,0" end="105,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,4)">conditional</animation>
@@ -130,7 +130,7 @@
 						<width>190</width>
 						<height>60</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -150,7 +150,7 @@
 						<width>190</width>
 						<height>30</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -162,7 +162,7 @@
 						<width>190</width>
 						<height>30</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -174,7 +174,7 @@
 						<width>190</width>
 						<height>30</height>
 						<font>secondary.info</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -199,7 +199,7 @@
 							<width>190</width>
 							<height>60</height>
 							<font>secondary.info</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -211,7 +211,7 @@
 							<width>190</width>
 							<height>30</height>
 							<font>secondary.info</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -223,7 +223,7 @@
 							<width>190</width>
 							<height>30</height>
 							<font>secondary.info</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -235,7 +235,7 @@
 							<width>190</width>
 							<height>30</height>
 							<font>secondary.info</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -249,7 +249,7 @@
 							<top>0</top>
 							<width>210</width>
 							<height>310</height>
-							<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+							<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 							<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</bordertexture>
 							<bordersize>5</bordersize>
 							<visible>ControlGroup(9003).HasFocus</visible>
@@ -260,7 +260,7 @@
 							<width>190</width>
 							<height>60</height>
 							<font>secondary.info</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -272,7 +272,7 @@
 							<width>190</width>
 							<height>30</height>
 							<font>secondary.info</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -337,8 +337,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>breadcrumb.secondary</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>button.nf</shadowcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
+				<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 			</control>
 			<control type="list" id="$PARAM[list_id]">
 				<animation effect="slide" start="0,0" end="123,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,3)">conditional</animation>
@@ -397,7 +397,7 @@
 						<top>172</top>
 						<width>236</width>
 						<height>70</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<visible>Control.HasFocus($PARAM[list_id])</visible>
 					</control>
 					<control type="label">
@@ -406,7 +406,7 @@
 						<width>216</width>
 						<height>60</height>
 						<font>secondary.info.light</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
@@ -419,7 +419,7 @@
 						<width>206</width>
 						<height>60</height>
 						<font>secondary.info.light</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label2]</label>
@@ -455,8 +455,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>breadcrumb.secondary</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>button.nf</shadowcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
+				<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 			</control>
 			<control type="list" id="$PARAM[list_id]">
 				<animation effect="slide" start="0,0" end="170,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,2)">conditional</animation>
@@ -529,7 +529,7 @@
 						<top>167</top>
 						<width>330</width>
 						<height>70</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<visible>Control.HasFocus($PARAM[list_id])</visible>
 					</control>
 					<control type="label">
@@ -538,7 +538,7 @@
 						<width>310</width>
 						<height>60</height>
 						<font>secondary.info.light</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
@@ -551,7 +551,7 @@
 						<width>300</width>
 						<height>60</height>
 						<font>secondary.info.light</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label2]</label>
@@ -587,8 +587,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>breadcrumb.secondary</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>button.nf</shadowcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
+				<shadowcolor>$VAR[BUTTON_NF]</shadowcolor>
 			</control>
 			<control type="list" id="$PARAM[list_id]">
 				<animation effect="slide" start="0,0" end="105,0" time="0" condition="String.IsEqual(Container($PARAM[list_id]).NumItems,4)">conditional</animation>
@@ -648,7 +648,7 @@
 						<top>265</top>
 						<width>200</width>
 						<height>40</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<visible>Control.HasFocus($PARAM[list_id])</visible>
 					</control>
 					<control type="label">
@@ -657,7 +657,7 @@
 						<width>180</width>
 						<height>60</height>
 						<font>secondary.info.light</font>
-						<textcolor>text.primary</textcolor>
+						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<selectedcolor>$VAR[Colour.500]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
@@ -684,7 +684,7 @@
 				<width>50</width>
 				<height>50</height>
 				<texturefocus colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texturefocus>
-				<texturenofocus colordiffuse="tertiary">backgrounds/white.png</texturenofocus>
+				<texturenofocus colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texturenofocus>
 				<onclick>Control.Move($PARAM[list_id],-1)</onclick>
 				<visible>Container($PARAM[list_id]).HasPrevious</visible>
 				<include>VisibleFadeEffect</include>
@@ -693,14 +693,14 @@
 				<right>-5r</right>
 				<width>50</width>
 				<height>50</height>
-				<texture colordiffuse="text.primary">arrow-big-left.png</texture>
+				<texture colordiffuse="$VAR[TEXT_PRIMARY]">arrow-big-left.png</texture>
 				<visible>Container($PARAM[list_id]).HasPrevious + !Control.HasFocus(80001)</visible>
 			</control>
 			<control type="image">
 				<right>-5r</right>
 				<width>50</width>
 				<height>50</height>
-				<texture colordiffuse="white">arrow-big-left.png</texture>
+				<texture colordiffuse="$VAR[WHITE]">arrow-big-left.png</texture>
 				<visible>Container($PARAM[list_id]).HasPrevious + Control.HasFocus(80001)</visible>
 			</control>
 			<control type="button" id="80002">
@@ -709,7 +709,7 @@
 				<width>50</width>
 				<height>50</height>
 				<texturefocus colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texturefocus>
-				<texturenofocus colordiffuse="tertiary">backgrounds/white.png</texturenofocus>
+				<texturenofocus colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texturenofocus>
 				<onclick>Control.Move($PARAM[list_id],1)</onclick>
 				<visible>Container($PARAM[list_id]).HasNext</visible>
 				<include>VisibleFadeEffect</include>
@@ -718,14 +718,14 @@
 				<left>-5r</left>
 				<width>50</width>
 				<height>50</height>
-				<texture colordiffuse="text.primary">arrow-big-right.png</texture>
+				<texture colordiffuse="$VAR[TEXT_PRIMARY]">arrow-big-right.png</texture>
 				<visible>Container($PARAM[list_id]).HasNext + !Control.HasFocus(80002)</visible>
 			</control>
 			<control type="image">
 				<left>-5r</left>
 				<width>50</width>
 				<height>50</height>
-				<texture colordiffuse="white">arrow-big-right.png</texture>
+				<texture colordiffuse="$VAR[WHITE]">arrow-big-right.png</texture>
 				<visible>Container($PARAM[list_id]).HasNext + Control.HasFocus(80002)</visible>
 			</control>
 		</control>

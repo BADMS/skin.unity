@@ -28,7 +28,7 @@
 					<top>-10</top>
 					<width>1004</width>
 					<height>710</height>
-					<texture background="true" colordiffuse="tertiary">backgrounds/media info 3 bg.png</texture>
+					<texture background="true" colordiffuse="$VAR[TERTIARY]">backgrounds/media info 3 bg.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
@@ -70,7 +70,7 @@
 					<width>685</width>
 					<height>45</height>
 					<font>button</font>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>$INFO[Player.Title]</label>
@@ -117,8 +117,8 @@
 					<width>954</width>
 					<height>55</height>
 					<font>secondary.info.big</font>
-					<textcolor>white</textcolor>
-					<selectedcolor>white</selectedcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
+					<selectedcolor>$VAR[WHITE]</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>$INFO[Container(50).ListItem.Title]$INFO[ListItem.Duration, • ]$INFO[ListItem.Genre, • ,]</label>
@@ -132,7 +132,7 @@
 					<height>168</height>
 					<font>label</font>
 					<align>left</align>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
 					<autoscroll time="3000" delay="10000" repeat="10000">Skin.HasSetting(AutoScroll)</autoscroll>
 				</control>
@@ -209,7 +209,7 @@
 						<top>0</top>
 						<width>600</width>
 						<height>90</height>
-						<texture colordiffuse="button.nf">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[BUTTON_NF]">backgrounds/white.png</texture>
 					</control>
 					<control type="group">
 						<left>4</left>
@@ -221,7 +221,7 @@
 							<width>60</width>
 							<height>45</height>
 							<font>channel</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<info>ListItem.ChannelNumberLabel</info>
@@ -243,7 +243,7 @@
 							<width>525</width>
 							<height>30</height>
 							<font>label</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -256,7 +256,7 @@
 							<width>525</width>
 							<height>30</height>
 							<font>secondary.info</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -271,7 +271,7 @@
 							<width>420</width>
 							<height>30</height>
 							<font>secondary.info</font>
-							<textcolor>white</textcolor>
+							<textcolor>$VAR[WHITE]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -286,7 +286,7 @@
 							<top>70</top>
 							<width>420</width>
 							<height>7</height>
-							<midtexture colordiffuse="tertiary">backgrounds/white.png</midtexture>
+							<midtexture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</midtexture>
 							<info>ListItem.Progress</info>
 							<visible>ListItem.HasEpg</visible>
 						</control>
@@ -310,7 +310,7 @@
 						<top>0</top>
 						<width>600</width>
 						<height>90</height>
-						<texture colordiffuse="tertiary">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="75" time="200" condition="!Control.HasFocus(50)">Conditional</animation>
 					</control>
 					<!--focused bg nib-->
@@ -332,7 +332,7 @@
 							<width>60</width>
 							<height>45</height>
 							<font>channel</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<info>ListItem.ChannelNumberLabel</info>
@@ -354,7 +354,7 @@
 							<width>525</width>
 							<height>30</height>
 							<font>label</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -367,7 +367,7 @@
 							<width>525</width>
 							<height>30</height>
 							<font>secondary.info</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -381,7 +381,7 @@
 							<width>420</width>
 							<height>30</height>
 							<font>secondary.info</font>
-							<textcolor>text.primary</textcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 							<selectedcolor>$VAR[Colour.500]</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>

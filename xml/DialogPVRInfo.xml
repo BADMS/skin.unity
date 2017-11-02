@@ -48,7 +48,7 @@
 					<font>info.title</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[19047]</label>
 				</control>
 				<!--secondary title-->
@@ -60,7 +60,7 @@
 					<font>breadcrumb</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[ListItem.Title]</label>
 				</control>
 				<control type="list" id="49">
@@ -95,8 +95,8 @@
 							<font>secondary.info</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
-							<selectedcolor>text.primary</selectedcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+							<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 							<info>ListItem.Label2</info>
 						</control>
 					</itemlayout>
@@ -129,8 +129,8 @@
 							<font>secondary.info</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>text.primary</textcolor>
-							<selectedcolor>text.primary</selectedcolor>
+							<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
+							<selectedcolor>$VAR[TEXT_PRIMARY]</selectedcolor>
 							<info>ListItem.Label2</info>
 							<scroll>true</scroll>
 						</control>
@@ -200,7 +200,7 @@
 					<width>600</width>
 					<height>45</height>
 					<font>secondary.info.light</font>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -229,7 +229,7 @@
 					<height>400</height>
 					<font>label</font>
 					<align>justify</align>
-					<textcolor>text.primary</textcolor>
+					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<pagecontrol>60</pagecontrol>
 					<label fallback="161">$INFO[ListItem.Plot]</label>
 				</control>

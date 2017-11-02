@@ -56,7 +56,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>$INFO[Container(9000).ListItem.Label]</label>
 				<visible>Control.IsVisible(198)</visible>
 			</control>
@@ -69,7 +69,7 @@
 				<font>info.title</font>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$VAR[WHITE]</textcolor>
 				<label>$INFO[Control.GetLabel(190)] $INFO[Control.GetLabel(191)]</label>
 				<visible>!Control.IsVisible(198)</visible>
 			</control>
@@ -112,7 +112,7 @@
 						<width>325</width>
 						<height>30</height>
 						<font>button.bold</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -123,7 +123,7 @@
 						<width>325</width>
 						<height>30</height>
 						<font>button</font>
-						<textcolor>white</textcolor>
+						<textcolor>$VAR[WHITE]</textcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label2]</label>
@@ -135,7 +135,7 @@
 						<top>0</top>
 						<width>355</width>
 						<height>90</height>
-						<texture colordiffuse="white">backgrounds/white.png</texture>
+						<texture colordiffuse="$VAR[WHITE]">backgrounds/white.png</texture>
 						<animation effect="fade" start="100" end="50" time="75" condition="!Control.HasFocus(9000) + !Control.IsVisible(199)">Conditional</animation>
 					</control>
 					<control type="label">
@@ -370,7 +370,7 @@
 								<height>22</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -389,7 +389,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Plot)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
 						</focusedlayout>
@@ -563,7 +563,7 @@
 								<height>18</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -593,7 +593,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Tagline)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
 							<control type="textbox">
@@ -603,7 +603,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(PlotOutline)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<visible>String.IsEmpty(ListItem.Property(TagLine))</visible>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
@@ -614,7 +614,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Plot)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<visible>String.IsEmpty(ListItem.Property(TagLine)) + String.IsEmpty(ListItem.Property(PlotOutline))</visible>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
@@ -789,7 +789,7 @@
 								<height>18</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -819,7 +819,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Tagline)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
 							<control type="textbox">
@@ -829,7 +829,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(PlotOutline)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<visible>String.IsEmpty(ListItem.Property(TagLine))</visible>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
@@ -840,7 +840,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Plot)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<visible>String.IsEmpty(ListItem.Property(TagLine)) + String.IsEmpty(ListItem.Property(PlotOutline))</visible>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
@@ -986,7 +986,7 @@
 								<height>18</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -1005,7 +1005,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Plot)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
 						</focusedlayout>
@@ -1142,7 +1142,7 @@
 								<height>18</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -1296,7 +1296,7 @@
 								<height>22</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -1315,7 +1315,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Plot)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
 						</focusedlayout>
@@ -1472,7 +1472,7 @@
 								<height>18</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -1482,7 +1482,7 @@
 								<height>22</height>
 								<label>$INFO[ListItem.Property(Artist)]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -1629,7 +1629,7 @@
 								<height>22</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -1648,7 +1648,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Artist_Description)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
 						</focusedlayout>
@@ -1775,7 +1775,7 @@
 								<height>22</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -1794,7 +1794,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Album_Description)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
 						</focusedlayout>
@@ -1951,7 +1951,7 @@
 								<height>18</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -1961,7 +1961,7 @@
 								<height>22</height>
 								<label>$INFO[ListItem.Property(Artist)]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -2155,7 +2155,7 @@
 								<height>18</height>
 								<label>[B]$INFO[ListItem.Label][/B]</label>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<aligny>center</aligny>
 							</control>
 							<control type="label">
@@ -2185,7 +2185,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Tagline)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
 							<control type="textbox">
@@ -2195,7 +2195,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(PlotOutline)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<visible>String.IsEmpty(ListItem.Property(TagLine))</visible>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>
@@ -2206,7 +2206,7 @@
 								<height>75</height>
 								<label>$INFO[ListItem.Property(Plot)]</label>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<visible>String.IsEmpty(ListItem.Property(TagLine)) + String.IsEmpty(ListItem.Property(PlotOutline))</visible>
 								<autoscroll delay="3000" time="2000" repeat="6000">true</autoscroll>
 							</control>

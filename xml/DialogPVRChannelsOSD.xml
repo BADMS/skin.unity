@@ -40,7 +40,7 @@
 					<font>menu.title</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[19023] - $INFO[VideoPlayer.ChannelGroup]</label>
 					<visible>!pvr.IsPlayingRadio</visible>
 				</control>
@@ -53,7 +53,7 @@
 					<font>menu.title</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$LOCALIZE[19024] - $INFO[MusicPlayer.ChannelGroup]</label>
 					<visible>pvr.IsPlayingRadio</visible>
 				</control>
@@ -66,7 +66,7 @@
 					<font>kai.secondary</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$VAR[WHITE]</textcolor>
 					<label>$INFO[System.Date(DDD)], $INFO[System.Date(d)] $INFO[System.Date(mmm)] $INFO[System.Date(yyyy)], $INFO[System.Time] • $INFO[Container(11).NumItems] $LOCALIZE[19019] ($LOCALIZE[31024] $INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages])</label>
 				</control>
 				<!--content list-->
@@ -213,7 +213,7 @@
 								<width>60</width>
 								<height>45</height>
 								<font>channel</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -236,7 +236,7 @@
 								<width>525</width>
 								<height>38</height>
 								<font>label</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -249,7 +249,7 @@
 								<width>505</width>
 								<height>30</height>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -263,7 +263,7 @@
 								<width>450</width>
 								<height>30</height>
 								<font>secondary.info</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -277,7 +277,7 @@
 								<width>90</width>
 								<height>30</height>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 								<aligny>center</aligny>
 								<label>$INFO[ListItem.StartTime]</label>
@@ -301,7 +301,7 @@
 								<width>90</width>
 								<height>30</height>
 								<font>secondary.info.small</font>
-								<textcolor>white</textcolor>
+								<textcolor>$VAR[WHITE]</textcolor>
 								<selectedcolor>$VAR[Colour.Alt]</selectedcolor>
 								<aligny>center</aligny>
 								<label>$INFO[ListItem.EndTime]</label>
