@@ -93,8 +93,8 @@
 				<!--category buttons-->
 				<control type="button" id="13">
 					<width>260</width>
-					<texturefocus colordiffuse="$VAR[WHITE]">backgrounds/white.png</texturefocus>
-					<textcolor>$VAR[WHITE]</textcolor>
+					<texturefocus colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texturefocus>
+					<textcolor>$VAR[Colour.500]</textcolor>
 					<focusedcolor>$VAR[Colour.900]</focusedcolor>
 					<include>ButtonCommonValues</include>
 				</control>

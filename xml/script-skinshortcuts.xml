@@ -78,7 +78,7 @@
 								<left>120</left>
 								<width>455</width>
 								<aligny>center</aligny>
-								<textcolor>$VAR[WHITE]</textcolor>
+								<textcolor>$VAR[Colour.500]</textcolor>
 								<label>$INFO[ListItem.Label]</label>
 							</control>
 						</itemlayout>
@@ -86,7 +86,7 @@
 							<control type="image">
 								<height>60</height>
 								<width>585</width>
-								<texture>backgrounds/white.png</texture>
+								<texture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texture>
 								<animation effect="fade" start="100" end="30" time="100" condition="![Control.HasFocus(211) | Control.HasFocus(302) | Control.HasFocus(303) | Control.HasFocus(304)]">Conditional</animation>
 							</control>
 							<control type="label">
