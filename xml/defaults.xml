@@ -51,9 +51,9 @@
 		<font>label</font>
 	</default>
 	<default type="progress">
-		<texturebg colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</texturebg>
+		<texturebg colordiffuse="$VAR[Colour.900]">backgrounds/white.png</texturebg>
 		<lefttexture>-</lefttexture>
-		<midtexture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</midtexture>
+		<midtexture colordiffuse="$VAR[SECONDARY]">backgrounds/white.png</midtexture>
 		<righttexture>-</righttexture>
 		<overlaytexture>-</overlaytexture>
 	</default>

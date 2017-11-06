@@ -240,6 +240,7 @@
 					<height>20</height>
 					<texture fallback="flags/videocodec/default.png">$INFO[VideoPlayer.VideoCodec,flags/videocodec/,.png]</texture>
 					<aspectratio>keep</aspectratio>
+					<colordiffuse>$VAR[WHITE]</colordiffuse>
 				</control>
 			</control>
 			<!--audio codec-->
@@ -279,6 +280,7 @@
 					<height>20</height>
 					<texture fallback="flags/audio/default channel.png">$INFO[VideoPlayer.AudioChannels,flags/audio/,.png]</texture>
 					<aspectratio>keep</aspectratio>
+					<colordiffuse>$VAR[WHITE]</colordiffuse>
 				</control>
 			</control>
 			<!--audio language-->

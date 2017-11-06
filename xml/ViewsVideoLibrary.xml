@@ -1225,7 +1225,7 @@
 					<selectedcolor>$VAR[WHITE]</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[listitem.episode] $LOCALIZE[20360] ($INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])</label>
+					<label>$INFO[listitem.episode] $LOCALIZE[20360] ($INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101]])</label>
 					<visible>Container.Content(Seasons)</visible>
 				</control>
 				<!--plot (movies)-->
@@ -1715,7 +1715,7 @@
 						<selectedcolor>$VAR[WHITE]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[listitem.episode] $LOCALIZE[20360] ($INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])</label>
+						<label>$INFO[listitem.episode] $LOCALIZE[20360] ($INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101]])</label>
 					</control>
 					<!--plot-->
 					<control type="textbox">
@@ -1935,7 +1935,7 @@
 						<selectedcolor>$VAR[WHITE]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[listitem.episode] $LOCALIZE[20360] ($INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])</label>
+						<label>$INFO[listitem.episode] $LOCALIZE[20360] ($INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101]])</label>
 					</control>
 					<!--plot-->
 					<control type="textbox">
@@ -2613,7 +2613,7 @@
 					<selectedcolor>$VAR[WHITE]</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[listitem.episode] $LOCALIZE[20360] ($INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])</label>
+					<label>$INFO[listitem.episode] $LOCALIZE[20360] ($INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101]])</label>
 					<visible>Container.Content(Seasons)</visible>
 				</control>
 				<!--plot (seasons)-->
