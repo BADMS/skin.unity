@@ -23,6 +23,7 @@
 					<label>-</label>
 					<font>-</font>
 					<ondown>9000</ondown>
+					<onup>back</onup>
 					<texturenofocus>-</texturenofocus>
 					<texturefocus>-</texturefocus>
 				</control>
