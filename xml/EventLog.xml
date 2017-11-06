@@ -11,7 +11,7 @@
 				<include>CommonBackground</include>
 			</control>
 			<!--views-->
-			<control type="group">
+			<control type="group" id="9200">
 				<include>Window_OpenClose_Animation</include>
 				<include>EventListView</include>
 				<!-- view id = 570 -->
@@ -47,14 +47,14 @@
 					<top>100</top>
 					<bottom>0</bottom>
 					<!--buttons grouplist-->
-					<control type="grouplist" id="9000">
+					<control type="grouplist" id="9100">
 						<left>10</left>
 						<width>375</width>
 						<height>100%</height>
-						<onleft>9000</onleft>
+						<onleft>SetFocus(9000)</onleft>
 						<onright>570</onright>
-						<onup>9000</onup>
-						<ondown>9000</ondown>
+						<onup>9100</onup>
+						<ondown>9100</ondown>
 						<onback>570</onback>
 						<itemgap>0</itemgap>
 						<!--view as-->
@@ -105,5 +105,6 @@
 				</control>
 			</control>
 		</control>
+		<include>GlobalMenu</include>
 	</controls>
 </window>

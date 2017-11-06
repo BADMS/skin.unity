@@ -11,7 +11,7 @@
 				<include>CommonBackground</include>
 			</control>
 			<!--views-->
-			<control type="group">
+			<control type="group" id="9200">
 				<visible>!Window.IsActive(MovieInformation)</visible>
 				<include>Window_OpenClose_Animation</include>
 				<include>CommonRootView</include>
@@ -42,24 +42,28 @@
 			<!--general window furniture-->
 			<control type="group">
 				<include>Clock</include>
-				<include>CommonPageCount</include>
-				<include>CommonNowPlaying</include>
 				<include>ScrollOffsetLabel</include>
 			</control>
+			<control type="group">
+				<include>CommonPageCount</include>
+				<include>CommonNowPlaying</include>
+			</control>
 			<!--breadcrumbs-->
-			<include content="DynamicLeftBreadcrumb">
-				<param name="breadcrumb1-label" value="$LOCALIZE[3]" />
-				<param name="breadcrumb2-label" value="[LOWERCASE]$INFO[Container.FolderName][/LOWERCASE]" />
-				<param name="breadcrumb2-visible" value="!String.IsEmpty(Container.FolderName)" />
-			</include>
-			<include content="DynamicLeftBreadcrumb">
-				<param name="breadcrumb-top" value="110" />
-				<param name="breadcrumb-height" value="34" />
-				<param name="breadcrumb-font" value="breadcrumb.secondary" />
-				<param name="breadcrumb1-label" value="$LOCALIZE[31062]" />
-				<param name="breadcrumb2-label" value="$INFO[Container.SortMethod]" />
-				<param name="breadcrumb2-visible" value="true" />
-			</include>
+			<control type="group">
+				<include content="DynamicLeftBreadcrumb">
+					<param name="breadcrumb1-label" value="$LOCALIZE[3]" />
+					<param name="breadcrumb2-label" value="[LOWERCASE]$INFO[Container.FolderName][/LOWERCASE]" />
+					<param name="breadcrumb2-visible" value="!String.IsEmpty(Container.FolderName)" />
+				</include>
+				<include content="DynamicLeftBreadcrumb">
+					<param name="breadcrumb-top" value="110" />
+					<param name="breadcrumb-height" value="34" />
+					<param name="breadcrumb-font" value="breadcrumb.secondary" />
+					<param name="breadcrumb1-label" value="$LOCALIZE[31062]" />
+					<param name="breadcrumb2-label" value="$INFO[Container.SortMethod]" />
+					<param name="breadcrumb2-visible" value="true" />
+				</include>
+			</control>
 			<!--dialog fade-->
 			<include>BehindDialogFadeOut</include>
 			<!--view options-->
@@ -70,21 +74,21 @@
 					<top>100</top>
 					<bottom>0</bottom>
 					<!--buttons grouplist-->
-					<control type="grouplist" id="9000">
+					<control type="grouplist" id="9100">
 						<left>10</left>
 						<width>375</width>
 						<height>100%</height>
-						<onleft>9000</onleft>
+						<onleft>SetFocus(9000)</onleft>
 						<onright>50</onright>
-						<onup>9000</onup>
-						<ondown>9000</ondown>
+						<onup>9100</onup>
+						<ondown>9100</ondown>
 						<onback>50</onback>
 						<itemgap>0</itemgap>
 						<!--view as-->
 						<control type="button" id="2">
 							<textwidth>352</textwidth>
 							<include>ButtonCommonValues</include>
-							<label>-</label>
+							<label />
 						</control>
 						<!--sort by-->
 						<control type="button" id="3">
@@ -176,5 +180,6 @@
 				</control>
 			</control>
 		</control>
+		<include>GlobalMenu</include>
 	</controls>
 </window>

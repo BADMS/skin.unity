@@ -207,7 +207,7 @@
 			<aspectratio>scale</aspectratio>
 			<texture background="true" colordiffuse="dialog.overlay">backgrounds/white.png</texture>
 			<include>backgroundfade2</include>
-			<visible>ControlGroup(9000).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999) | Window.IsVisible(AddonInformation) | Window.IsVisible(AudioDSPManager) | Window.IsVisible(ShutdownMenu) | Window.IsVisible(ContextMenu) | Window.IsVisible(MovieInformation) | Window.IsVisible(MusicInformation) | Window.IsVisible(SongInformation) | Window.IsVisible(FileBrowser) | Window.IsVisible(TextViewer) | Window.IsVisible(AddonSettings) | Window.IsVisible(ContentSettings) | Window.IsVisible(SelectDialog) | Window.IsVisible(MediaSource) | Window.IsVisible(PictureInfo) | Window.IsVisible(PlayerControls) | Window.IsVisible(VirtualKeyboard) | Window.IsVisible(NumericInput) | Window.IsVisible(ProfileSettings) | Window.IsVisible(LockSettings) | Window.IsVisible(SmartPlaylistEditor) | Window.IsVisible(SmartPlaylistRule) |
+			<visible>ControlGroup(9100).HasFocus | ControlGroup(9000).HasFocus | Control.HasFocus(9100) | Control.HasFocus(9000) | Control.HasFocus(9901) | Control.HasFocus(608) | Control.HasFocus(9001) | Control.HasFocus(8999) | Window.IsVisible(AddonInformation) | Window.IsVisible(AudioDSPManager) | Window.IsVisible(ShutdownMenu) | Window.IsVisible(ContextMenu) | Window.IsVisible(MovieInformation) | Window.IsVisible(MusicInformation) | Window.IsVisible(SongInformation) | Window.IsVisible(FileBrowser) | Window.IsVisible(TextViewer) | Window.IsVisible(AddonSettings) | Window.IsVisible(ContentSettings) | Window.IsVisible(SelectDialog) | Window.IsVisible(MediaSource) | Window.IsVisible(PictureInfo) | Window.IsVisible(PlayerControls) | Window.IsVisible(VirtualKeyboard) | Window.IsVisible(NumericInput) | Window.IsVisible(ProfileSettings) | Window.IsVisible(LockSettings) | Window.IsVisible(SmartPlaylistEditor) | Window.IsVisible(SmartPlaylistRule) |
 			Window.IsVisible(AddonInformation) | Window.IsVisible(PeripheralSettings) | Window.IsVisible(script-cu-lrclyrics-main.xml) | Window.IsVisible(PVRChannelManager) | Window.IsVisible(PVRGroupManager) | Window.IsVisible(MediaFilter) | Window.IsVisible(OKDialog) | Window.IsVisible(YesNoDialog) | Window.IsVisible(ProgressDialog) | Window.IsVisible(MediaSource) | Window.IsVisible(1100) | Window.IsVisible(GameControllers)</visible>
 		</control>
 	</include>
@@ -722,9 +722,9 @@
 		</definition>
 	</include>
 	<include name="SideBladeLeft">
-		<animation effect="slide" start="0,0" end="375,0" time="300" tween="quadratic" easing="out" condition="[ControlGroup(9000).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999)] + ![Window.IsActive(ShutdownMenu) | Window.IsActive(PVRGuideInfo) | Window.IsActive(PVRRadioRDSInfo)]">Conditional</animation>
-		<animation effect="slide" start="0,0" end="-450,0" time="300" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | Control.HasFocus(9001)">WindowClose</animation>
-		<animation effect="slide" start="0,0" end="-75,0" time="300" tween="quadratic" easing="out" condition="![ControlGroup(9000).HasFocus | Control.HasFocus(9001)]">WindowClose</animation>
+		<animation effect="slide" start="0,0" end="375,0" time="300" tween="quadratic" easing="out" condition="[ControlGroup(9100).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999)] + ![Window.IsActive(ShutdownMenu) | Window.IsActive(PVRGuideInfo) | Window.IsActive(PVRRadioRDSInfo)]">Conditional</animation>
+		<animation effect="slide" start="0,0" end="-450,0" time="300" tween="quadratic" easing="out" condition="ControlGroup(9100).HasFocus | Control.HasFocus(9001)">WindowClose</animation>
+		<animation effect="slide" start="0,0" end="-75,0" time="300" tween="quadratic" easing="out" condition="![ControlGroup(9100).HasFocus | Control.HasFocus(9001)]">WindowClose</animation>
 		<animation effect="slide" start="-75,0" end="0,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
 		<!--side blade tab bg (for fade effect)-->
 		<control type="button" id="9001">
@@ -754,7 +754,7 @@
 			<width>32</width>
 			<height>32</height>
 			<texture colordiffuse="black">previous-32.png</texture>
-			<animation effect="rotate" start="0" end="180" center="auto" time="200" condition="ControlGroup(9000).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999)">Conditional</animation>
+			<animation effect="rotate" start="0" end="180" center="auto" time="200" condition="ControlGroup(9100).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999)">Conditional</animation>
 		</control>
 		<!--side blade tab arrow-->
 		<control type="image">
@@ -763,7 +763,7 @@
 			<width>32</width>
 			<height>32</height>
 			<texture colordiffuse="$VAR[WHITE]">previous-32.png</texture>
-			<animation effect="rotate" start="0" end="180" center="auto" time="200" condition="ControlGroup(9000).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999)">Conditional</animation>
+			<animation effect="rotate" start="0" end="180" center="auto" time="200" condition="ControlGroup(9100).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999)">Conditional</animation>
 			<animation effect="fade" start="100" end="70" time="300" condition="Window.IsVisible(movieinformation) | Window.IsVisible(selectdialog) | Window.IsVisible(contentsettings) | Window.IsVisible(filebrowser) | Window.IsVisible(addonSettings) | Window.IsVisible(mediasource) | Window.IsVisible(shutdownmenu) | Window.IsVisible(contextmenu)">Conditional</animation>
 		</control>
 		<!--side blade bg-->
@@ -815,18 +815,18 @@
 			<width>30</width>
 			<height>100%</height>
 			<texture>sidebarshadow.png</texture>
-			<visible>ControlGroup(9000).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999)</visible>
+			<visible>ControlGroup(9100).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999)</visible>
 		</control>
 		<!--fake button for mouse control-->
 		<control type="button" id="8999">
 			<width>375</width>
 			<height>100%</height>
 			<texturefocus>-</texturefocus>
-			<onleft>9000</onleft>
-			<onright>9000</onright>
-			<onup>9000</onup>
-			<ondown>9000</ondown>
-			<visible>!ControlGroup(9000).HasFocus</visible>
+			<onleft>9100</onleft>
+			<onright>9100</onright>
+			<onup>9100</onup>
+			<ondown>9100</ondown>
+			<visible>!ControlGroup(9100).HasFocus</visible>
 		</control>
 	</include>
 	<include name="SideBladeRight">

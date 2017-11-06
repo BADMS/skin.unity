@@ -110,7 +110,7 @@
 				<left>1014</left>
 				<bottom>10</bottom>
 				<onleft>506</onleft>
-				<onright>2</onright>
+				<onright>SetFocus(9000)</onright>
 				<orientation>vertical</orientation>
 			</control>
 			<!--info-->
@@ -669,7 +669,7 @@
 						<top>10</top>
 						<width>56</width>
 						<height>40</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture colordiffuse="$VAR[WHITE]">$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 						<visible>!ListItem.IsStereoscopic</visible>
 					</control>
@@ -679,7 +679,7 @@
 						<top>20</top>
 						<width>56</width>
 						<height>40</height>
-						<texture>flagging/lists/3D.png</texture>
+						<texture colordiffuse="$VAR[WHITE]">flagging/lists/3D.png</texture>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 						<visible>ListItem.IsStereoscopic</visible>
 					</control>
@@ -753,7 +753,7 @@
 						<top>10</top>
 						<width>56</width>
 						<height>40</height>
-						<texture>$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
+						<texture colordiffuse="$VAR[Colour.500]">$INFO[ListItem.VideoResolution,flagging/lists/,.png]</texture>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 						<visible>!ListItem.IsStereoscopic</visible>
 					</control>
@@ -763,7 +763,7 @@
 						<top>20</top>
 						<width>56</width>
 						<height>40</height>
-						<texture>flagging/lists/3D.png</texture>
+						<texture colordiffuse="$VAR[Colour.500]">flagging/lists/3D.png</texture>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 						<visible>ListItem.IsStereoscopic</visible>
 					</control>
@@ -792,7 +792,7 @@
 				<left>1014</left>
 				<bottom>10</bottom>
 				<onleft>504</onleft>
-				<onright>2</onright>
+				<onright>SetFocus(9000)</onright>
 				<orientation>vertical</orientation>
 			</control>
 			<!--music video info-->
@@ -1013,7 +1013,7 @@
 				<left>1014</left>
 				<bottom>10</bottom>
 				<onleft>512</onleft>
-				<onright>2</onright>
+				<onright>SetFocus(9000)</onright>
 				<orientation>vertical</orientation>
 				<showonepage>true</showonepage>
 			</control>
@@ -1245,7 +1245,7 @@
 				<left>1014</left>
 				<bottom>10</bottom>
 				<onleft>513</onleft>
-				<onright>2</onright>
+				<onright>SetFocus(9000)</onright>
 				<orientation>vertical</orientation>
 				<showonepage>true</showonepage>
 			</control>

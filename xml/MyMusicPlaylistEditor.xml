@@ -20,7 +20,7 @@
 			<param name="breadcrumb2-label" value="$INFO[Container.SortMethod]" />
 			<param name="breadcrumb2-visible" value="true" />
 		</include>
-		<control type="group">
+		<control type="group" id="9200">
 			<left>60</left>
 			<top>205</top>
 			<animation effect="slide" start="-1200,0" end="0,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
@@ -177,7 +177,7 @@
 				<left>-15</left>
 				<top>145</top>
 				<height>638</height>
-				<onleft>9000</onleft>
+				<onleft>SetFocus(9000)</onleft>
 				<onright>50</onright>
 				<orientation>vertical</orientation>
 			</control>
@@ -354,14 +354,14 @@
 				<top>100</top>
 				<bottom>0</bottom>
 				<!--buttons grouplist-->
-				<control type="grouplist" id="9000">
+				<control type="grouplist" id="9100">
 					<left>10</left>
 					<width>375</width>
 					<height>100%</height>
-					<onleft>9000</onleft>
+					<onleft>SetFocus(9000)</onleft>
 					<onright>30</onright>
-					<onup>9000</onup>
-					<ondown>9000</ondown>
+					<onup>9100</onup>
+					<ondown>9100</ondown>
 					<onback>30</onback>
 					<itemgap>0</itemgap>
 					<!--sort by-->
@@ -403,5 +403,6 @@
 				</control>
 			</control>
 		</control>
+		<include>GlobalMenu</include>
 	</controls>
 </window>

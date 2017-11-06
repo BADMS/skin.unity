@@ -178,8 +178,8 @@
 				<font>-</font>
 				<texturefocus>-</texturefocus>
 				<texturenofocus>-</texturenofocus>
-				<onleft>9000</onleft>
-				<onright>9000</onright>
+				<onleft>SetFocus(9000)</onleft>
+				<onright>SetFocus(9000)</onright>
 				<onup>20</onup>
 				<ondown>608</ondown>
 				<visible>false</visible>
@@ -796,8 +796,8 @@
 						<top>10</top>
 						<width>1800</width>
 						<height>92</height>
-						<onleft>9000</onleft>
-						<onright>9000</onright>
+						<onleft>SetFocus(9000)</onleft>
+						<onright>SetFocus(9000)</onright>
 						<onup condition="System.HasAddon(script.globalsearch)">608</onup>
 						<onup condition="!System.HasAddon(script.globalsearch)">603</onup>
 						<ondown>9901</ondown>

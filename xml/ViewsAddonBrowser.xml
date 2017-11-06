@@ -108,7 +108,7 @@
 				<top>200</top>
 				<height>690</height>
 				<onleft>550</onleft>
-				<onright>2</onright>
+				<onright>SetFocus(9000)</onright>
 				<orientation>vertical</orientation>
 				<showonepage>true</showonepage>
 			</control>
@@ -404,7 +404,7 @@
 				<top>200</top>
 				<height>690</height>
 				<onleft>551</onleft>
-				<onright>2</onright>
+				<onright>SetFocus(9000)</onright>
 				<orientation>vertical</orientation>
 			</control>
 			<!--tv shows info-->

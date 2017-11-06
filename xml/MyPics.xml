@@ -19,7 +19,7 @@
 			<include>Window_OpenClose_Animation</include>
 		</control>
 		<!--views-->
-		<control type="group">
+		<control type="group" id="9200">
 			<include>Window_OpenClose_Animation</include>
 			<include>CommonRootView</include>
 			<!-- view id = 50 -->
@@ -64,14 +64,14 @@
 				<top>100</top>
 				<bottom>0</bottom>
 				<!--buttons grouplist-->
-				<control type="grouplist" id="9000">
+				<control type="grouplist" id="9100">
 					<left>10</left>
 					<width>375</width>
 					<height>100%</height>
-					<onleft>9000</onleft>
+					<onleft>SetFocus(9000)</onleft>
 					<onright>50</onright>
-					<onup>9000</onup>
-					<ondown>9000</ondown>
+					<onup>9100</onup>
+					<ondown>9100</ondown>
 					<onback>50</onback>
 					<itemgap>0</itemgap>
 					<!--<control type="label" id="200">
@@ -153,5 +153,6 @@
 				</control>
 			</control>
 		</control>
+		<include>GlobalMenu</include>
 	</controls>
 </window>
