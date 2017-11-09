@@ -67,8 +67,7 @@
 	<include name="CommonBackground">
 		<!-- global background -->
 		<control type="multiimage" id="7977">
-			<left>-2000</left>
-			<top>0</top>
+			<top>2000</top>
 			<imagepath background="true" fallback="special://skin/extras/backgrounds/SKINDEFAULT.jpg">$VAR[CBOXBackgroundVar]</imagepath>
 			<visible>![Player.HasVideo + !Skin.HasSetting(ShowBackgroundVideo)] | [Window.IsVisible(MovieInformation) + !Skin.HasSetting(HideWindowedTrailer)] | Window.IsActive(TVChannels)</visible>
 		</control>
