@@ -568,7 +568,7 @@
 						<top>$PARAM[buttonbar-top]</top>
 						<width>$PARAM[dialog-width]</width>
 						<height>$PARAM[buttonbar-height]</height>
-						<texture background="true" colordiffuse="primary">backgrounds/white.png</texture>
+						<texture background="true" colordiffuse="$VAR[WHITE]">backgrounds/white.png</texture>
 					</control>
 					<!--buttons shadow-->
 					<control type="image">

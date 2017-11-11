@@ -19,7 +19,7 @@
 				<top>150</top>
 				<width>390</width>
 				<height>80</height>
-				<texture colordiffuse="primary">backgrounds/white.png</texture>
+				<texture colordiffuse="$VAR[WHITE]">backgrounds/white.png</texture>
 			</control>
 			<!--title shadow-->
 			<control type="image">

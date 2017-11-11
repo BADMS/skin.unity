@@ -281,7 +281,7 @@
 					<top>65r</top>
 					<width>1210</width>
 					<height>70</height>
-					<texture colordiffuse="primary">backgrounds/white.png</texture>
+					<texture colordiffuse="$VAR[WHITE]">backgrounds/white.png</texture>
 				</control>
 				<!--buttons shadow-->
 				<control type="image">

@@ -389,7 +389,7 @@
 						<top>0</top>
 						<width>1210</width>
 						<height>130</height>
-						<texture background="true" colordiffuse="primary">backgrounds/white.png</texture>
+						<texture background="true" colordiffuse="$VAR[WHITE]">backgrounds/white.png</texture>
 					</control>
 					<control type="image">
 						<left>0</left>

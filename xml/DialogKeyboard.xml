@@ -22,7 +22,7 @@
 				<top>90</top>
 				<width>100%</width>
 				<height>70</height>
-				<texture colordiffuse="primary">backgrounds/white.png</texture>
+				<texture colordiffuse="$VAR[WHITE]">backgrounds/white.png</texture>
 			</control>
 			<!--title shadow-->
 			<control type="image">
