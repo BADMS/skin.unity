@@ -385,7 +385,7 @@
 			<name>label</name>
 			<filename>Roboto-Black.ttf</filename>
 			<size>34</size>
-			<linespacing>1</linespacing>
+			<linespacing>1.02</linespacing>
 		</font>
 		<font>
 			<name>secondary.info</name>
