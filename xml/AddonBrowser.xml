@@ -11,7 +11,7 @@
 				<include>CommonBackground</include>
 			</control>
 			<!--views-->
-			<control type="group">
+			<control type="group" id="9200">
 				<include>Window_OpenClose_Animation</include>
 				<include>CommonRootView</include>
 				<!-- view id = 50 -->
@@ -25,9 +25,11 @@
 			<!--general window furniture-->
 			<control type="group">
 				<include>Clock</include>
+				<include>ScrollOffsetLabel</include>
+			</control>
+			<control type="group">
 				<include>CommonPageCount</include>
 				<include>CommonNowPlaying</include>
-				<include>ScrollOffsetLabel</include>
 			</control>
 			<!--breadcrumbs-->
 			<include content="DynamicLeftBreadcrumb">
@@ -53,7 +55,7 @@
 					<top>100</top>
 					<bottom>0</bottom>
 					<!--buttons grouplist-->
-					<control type="grouplist" id="9000">
+					<control type="grouplist" id="9100">
 						<left>10</left>
 						<width>375</width>
 						<height>100%</height>
@@ -76,7 +78,7 @@
 						<control type="button" id="2">
 							<textwidth>352</textwidth>
 							<include>ButtonCommonValues</include>
-							<label>-</label>
+							<label />
 						</control>
 						<!--sort by-->
 						<control type="button" id="3">
@@ -131,5 +133,6 @@
 				</control>
 			</control>
 		</control>
+		<include>GlobalMenu</include>
 	</controls>
 </window>

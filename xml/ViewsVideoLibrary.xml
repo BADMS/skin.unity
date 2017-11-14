@@ -905,7 +905,7 @@
 					<top>85</top>
 					<bottom>300</bottom>
 					<width>665</width>
-					<font>label</font>
+					<font>label4</font>
 					<align>left</align>
 					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -1247,7 +1247,7 @@
 					<top>342</top>
 					<width>480</width>
 					<height>338</height>
-					<font>label</font>
+					<font>label1</font>
 					<align>left</align>
 					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -1260,7 +1260,7 @@
 					<top>342</top>
 					<width>480</width>
 					<height>338</height>
-					<font>label</font>
+					<font>label1</font>
 					<align>left</align>
 					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -1723,7 +1723,7 @@
 						<top>139</top>
 						<width>430</width>
 						<height>533</height>
-						<font>label</font>
+						<font>label2</font>
 						<align>left</align>
 						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<label>$INFO[ListItem.Plot]</label>
@@ -1847,7 +1847,7 @@
 						<top>134</top>
 						<width>430</width>
 						<height>498</height>
-						<font>label</font>
+						<font>label2</font>
 						<align>left</align>
 						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<label>$INFO[ListItem.Plot]</label>
@@ -1943,7 +1943,7 @@
 						<top>72</top>
 						<width>430</width>
 						<height>593</height>
-						<font>label</font>
+						<font>label2</font>
 						<align>left</align>
 						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<label>$INFO[ListItem.Plot]</label>
@@ -2065,7 +2065,7 @@
 						<top>134</top>
 						<width>430</width>
 						<height>498</height>
-						<font>label</font>
+						<font>label2</font>
 						<align>left</align>
 						<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 						<label>$INFO[ListItem.Plot]</label>
@@ -2403,7 +2403,7 @@
 					<top>465</top>
 					<width>954</width>
 					<height>168</height>
-					<font>label</font>
+					<font>label3</font>
 					<align>left</align>
 					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -2516,7 +2516,7 @@
 					<top>472</top>
 					<width>954</width>
 					<height>203</height>
-					<font>label</font>
+					<font>label3</font>
 					<align>left</align>
 					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -2622,7 +2622,7 @@
 					<top>472</top>
 					<width>954</width>
 					<height>203</height>
-					<font>label</font>
+					<font>label3</font>
 					<align>left</align>
 					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
@@ -2729,7 +2729,7 @@
 					<top>465</top>
 					<width>954</width>
 					<height>168</height>
-					<font>label</font>
+					<font>label3</font>
 					<align>left</align>
 					<textcolor>$VAR[TEXT_PRIMARY]</textcolor>
 					<label>$INFO[ListItem.Plot]</label>

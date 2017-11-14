@@ -319,7 +319,7 @@
 					<align>center</align>
 					<label>$INFO[VideoPlayer.AudioLanguage]</label>
 					<textcolor>$VAR[Colour.500]</textcolor>
-					<font>secondary.info.small</font>
+					<font>secondary.info.small.codec</font>
 				</control>
 			</control>
 			<!--subtitle language (audio language visible)-->
@@ -349,7 +349,7 @@
 					<align>center</align>
 					<label>$INFO[VideoPlayer.SubtitlesLanguage]</label>
 					<textcolor>$VAR[WHITE]</textcolor>
-					<font>secondary.info.small</font>
+					<font>secondary.info.small.codec</font>
 				</control>
 			</control>
 			<!--subtitle language (audio language not visible)-->
@@ -380,7 +380,7 @@
 					<align>center</align>
 					<label>$INFO[VideoPlayer.SubtitlesLanguage]</label>
 					<textcolor>$VAR[Colour.500]</textcolor>
-					<font>secondary.info.small</font>
+					<font>secondary.info.small.codec</font>
 				</control>
 			</control>
 			<!--recording image-->

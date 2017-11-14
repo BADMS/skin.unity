@@ -353,91 +353,135 @@
 		<font>
 			<name>info.title</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>56</size>
+			<size>54</size>
 			<linespacing>0.9</linespacing>
 		</font>
 		<font>
 			<name>main.menu</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>46</size>
+			<size>44</size>
 			<linespacing>0.9</linespacing>
 			<style>uppercase</style>
 		</font>
 		<font>
 			<name>breadcrumb</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>36</size>
+			<size>34</size>
 			<linespacing>0.9</linespacing>
 		</font>
 		<font>
 			<name>breadcrumb.secondary</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>26</size>
+			<size>24</size>
 			<style>uppercase</style>
 		</font>
 		<font>
 			<name>breadcrumb.$VAR[TERTIARY]</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>24</size>
+			<size>22</size>
 			<style>uppercase</style>
 		</font>
 		<font>
 			<name>label</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>34</size>
-			<linespacing>1.02</linespacing>
+			<size>32</size>
+			<linespacing>1.00</linespacing>
+		</font>
+		<font>
+			<name>label1</name>
+			<filename>Roboto-Black.ttf</filename>
+			<size>32</size>
+			<linespacing>1.11</linespacing>
+		</font>
+		<font>
+			<name>label2</name>
+			<filename>Roboto-Black.ttf</filename>
+			<size>32</size>
+			<linespacing>1.08</linespacing>
+		</font>
+		<font>
+			<name>label3</name>
+			<filename>Roboto-Black.ttf</filename>
+			<size>32</size>
+			<linespacing>1.07</linespacing>
+		</font>
+		<font>
+			<name>label4</name>
+			<filename>Roboto-Black.ttf</filename>
+			<size>32</size>
+			<linespacing>1.03</linespacing>
 		</font>
 		<font>
 			<name>secondary.info</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>28</size>
+			<size>26</size>
 		</font>
 		<font>
 			<name>secondary.info.light</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>28</size>
+			<size>26</size>
 		</font>
 		<font>
 			<name>secondary.info.small</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>26</size>
+			<size>24</size>
 		</font>
 		<font>
 			<name>secondary.info.big</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>31</size>
+			<size>29</size>
+		</font>
+		<font>
+			<name>secondary.info.codec</name>
+			<filename>Roboto-Regular.ttf</filename>
+			<size>20</size>
+		</font>
+		<font>
+			<name>secondary.info.light.codec</name>
+			<filename>Roboto-Regular.ttf</filename>
+			<size>20</size>
+		</font>
+		<font>
+			<name>secondary.info.small.codec</name>
+			<filename>Roboto-Regular.ttf</filename>
+			<size>20</size>
+		</font>
+		<font>
+			<name>secondary.info.big.codec</name>
+			<filename>Roboto-Regular.ttf</filename>
+			<size>23</size>
 		</font>
 		<font>
 			<name>menu.title</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>46</size>
+			<size>44</size>
 			<linespacing>0.9</linespacing>
 		</font>
 		<font>
 			<name>channel</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>34</size>
+			<size>32</size>
 			<linespacing>0.9</linespacing>
 		</font>
 		<font>
 			<name>button</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>28</size>
+			<size>26</size>
 		</font>
 		<font>
 			<name>button.bold</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>30</size>
+			<size>28</size>
 		</font>
 		<font>
 			<name>kai.primary</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>30</size>
+			<size>28</size>
 		</font>
 		<font>
 			<name>kai.secondary</name>
 			<filename>Roboto-Black.ttf</filename>
-			<size>26</size>
+			<size>24</size>
 		</font>
 		<!-- Normal Fonts -->
 		<font>
