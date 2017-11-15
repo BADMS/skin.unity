@@ -179,6 +179,7 @@
 							<top>5</top>
 							<width>50</width>
 							<height>50</height>
+							<aspectratio>keep</aspectratio>
 							<texture>$INFO[Listitem.Icon]</texture>
 							<visible>!String.Contains(ListItem.Icon,default)</visible>
 						</control>
@@ -222,6 +223,7 @@
 							<top>5</top>
 							<width>50</width>
 							<height>50</height>
+							<aspectratio>keep</aspectratio>
 							<texture>$INFO[Listitem.Icon]</texture>
 							<visible>!String.Contains(ListItem.Icon,default)</visible>
 						</control>
@@ -270,6 +272,7 @@
 							<top>5</top>
 							<width>50</width>
 							<height>50</height>
+							<aspectratio>keep</aspectratio>
 							<texture>$INFO[Listitem.Icon]</texture>
 							<visible>!String.Contains(ListItem.Icon,default)</visible>
 						</control>
@@ -313,6 +316,7 @@
 							<top>5</top>
 							<width>50</width>
 							<height>50</height>
+							<aspectratio>keep</aspectratio>
 							<texture>$INFO[Listitem.Icon]</texture>
 							<visible>!String.Contains(ListItem.Icon,default)</visible>
 						</control>

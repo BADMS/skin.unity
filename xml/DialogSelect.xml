@@ -157,6 +157,7 @@
 							<top>5</top>
 							<width>115</width>
 							<height>115</height>
+							<aspectratio>keep</aspectratio>
 							<texture>$INFO[Listitem.Icon]</texture>
 							<visible>!String.Contains(ListItem.Icon,Default)</visible>
 						</control>
@@ -166,6 +167,7 @@
 							<top>5</top>
 							<width>115</width>
 							<height>115</height>
+							<aspectratio>keep</aspectratio>
 							<texture colordiffuse="$VAR[TEXT_PRIMARY]">$INFO[Listitem.Icon]</texture>
 							<visible>String.Contains(ListItem.Icon,Default)</visible>
 						</control>
@@ -212,6 +214,7 @@
 							<top>5</top>
 							<width>115</width>
 							<height>115</height>
+							<aspectratio>keep</aspectratio>
 							<texture>$INFO[Listitem.Icon]</texture>
 						</control>
 						<!--title-->
