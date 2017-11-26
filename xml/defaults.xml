@@ -168,7 +168,7 @@
 		<width>7</width>
 		<texturesliderbackground colordiffuse="$VAR[SECONDARY]">backgrounds/background.png</texturesliderbackground>
 		<texturesliderbar colordiffuse="$VAR[Colour.500]">backgrounds/white.png</texturesliderbar>
-		<texturesliderbarfocus colordiffuse="$VAR[TERTIARY]">backgrounds/background.png</texturesliderbarfocus>
+		<texturesliderbarfocus colordiffuse="$VAR[TERTIARY]">backgrounds/white.png</texturesliderbarfocus>
 		<textureslidernib />
 		<textureslidernibfocus />
 		<showonepage>false</showonepage>

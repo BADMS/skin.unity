@@ -32,7 +32,7 @@
 						<top>0</top>
 						<width>362</width>
 						<height>538</height>
-						<aspectratio>stretch</aspectratio>
+						<aspectratio>scale</aspectratio>
 						<texture colordiffuse="$VAR[TERTIARY]" background="true">backgrounds/white.png</texture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
 						<bordersize>5</bordersize>
@@ -54,7 +54,7 @@
 						<top>0</top>
 						<width>362</width>
 						<height>538</height>
-						<aspectratio>stretch</aspectratio>
+						<aspectratio>scale</aspectratio>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<bordersize>5</bordersize>
 						<bordertexture colordiffuse="$VAR[TERTIARY]">backgrounds/poster shadow small.png</bordertexture>
@@ -95,7 +95,7 @@
 						<top>0</top>
 						<width>362</width>
 						<height>538</height>
-						<aspectratio>stretch</aspectratio>
+						<aspectratio>scale</aspectratio>
 						<texture colordiffuse="$VAR[TERTIARYTWO]" background="true">backgrounds/white.png</texture>
 						<visible>String.Contains(ListItem.Icon,Default)</visible>
 						<bordersize>5</bordersize>
@@ -117,7 +117,7 @@
 						<top>0</top>
 						<width>362</width>
 						<height>538</height>
-						<aspectratio>stretch</aspectratio>
+						<aspectratio>scale</aspectratio>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<bordersize>5</bordersize>
 						<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</bordertexture>
@@ -249,7 +249,7 @@
 							<top>0</top>
 							<width>181</width>
 							<height>266</height>
-							<aspectratio>stretch</aspectratio>
+							<aspectratio>scale</aspectratio>
 							<texture colordiffuse="$VAR[TERTIARY]" background="true">backgrounds/white.png</texture>
 							<bordersize>5</bordersize>
 							<bordertexture>backgrounds/poster shadow small l.png</bordertexture>
@@ -271,7 +271,7 @@
 							<top>0</top>
 							<width>181</width>
 							<height>266</height>
-							<aspectratio>stretch</aspectratio>
+							<aspectratio>scale</aspectratio>
 							<texture background="true">$VAR[PosterThumb]</texture>
 							<bordersize>5</bordersize>
 							<bordertexture>backgrounds/poster shadow small l.png</bordertexture>
@@ -312,7 +312,7 @@
 							<top>0</top>
 							<width>181</width>
 							<height>266</height>
-							<aspectratio>stretch</aspectratio>
+							<aspectratio>scale</aspectratio>
 							<texture colordiffuse="$VAR[TERTIARYTWO]" background="true">backgrounds/white.png</texture>
 							<bordersize>5</bordersize>
 							<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</bordertexture>
@@ -334,7 +334,7 @@
 							<top>0</top>
 							<width>181</width>
 							<height>266</height>
-							<aspectratio>stretch</aspectratio>
+							<aspectratio>scale</aspectratio>
 							<texture background="true">$VAR[PosterThumb]</texture>
 							<bordersize>5</bordersize>
 							<bordertexture colordiffuse="$VAR[Colour.500]">backgrounds/white.png</bordertexture>
@@ -1395,7 +1395,7 @@
 		</control>
 	</include>
 	<include name="MediaListView3">
-		<!--all content-->
+		<!--all content * Media Info View 2 * -->
 		<control type="group">
 			<visible>Control.IsVisible(503)</visible>
 			<include>VisibleFadeEffect</include>
@@ -1652,7 +1652,7 @@
 						<top>-10</top>
 						<width>480</width>
 						<height>710</height>
-						<aspectratio aligny="top">stretch</aspectratio>
+						<aspectratio aligny="top">scale</aspectratio>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<bordertexture>backgrounds/poster shadow.png</bordertexture>
 						<bordersize>10</bordersize>
@@ -1898,7 +1898,7 @@
 						<top>-10</top>
 						<width>480</width>
 						<height>710</height>
-						<aspectratio aligny="top">stretch</aspectratio>
+						<aspectratio aligny="top">scale</aspectratio>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<bordertexture>backgrounds/poster shadow.png</bordertexture>
 						<bordersize>10</bordersize>
@@ -1994,7 +1994,7 @@
 						<top>-10</top>
 						<width>480</width>
 						<height>710</height>
-						<aspectratio aligny="top">stretch</aspectratio>
+						<aspectratio aligny="top">scale</aspectratio>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<bordertexture>backgrounds/poster shadow.png</bordertexture>
 						<bordersize>10</bordersize>
@@ -2362,7 +2362,7 @@
 					<top>0</top>
 					<width>269</width>
 					<height>402</height>
-					<aspectratio align="left" aligny="bottom">stretch</aspectratio>
+					<aspectratio align="left" aligny="bottom">scale</aspectratio>
 					<texture background="true">$VAR[PosterThumb]</texture>
 					<visible>!String.Contains(ListItem.Icon,Default)</visible>
 				</control>
@@ -2475,7 +2475,7 @@
 					<top>0</top>
 					<width>269</width>
 					<height>402</height>
-					<aspectratio align="left" aligny="bottom">stretch</aspectratio>
+					<aspectratio align="left" aligny="bottom">scale</aspectratio>
 					<texture background="true">$VAR[PosterThumb]</texture>
 					<visible>!String.Contains(ListItem.Icon,Default)</visible>
 				</control>
@@ -2581,7 +2581,7 @@
 					<top>0</top>
 					<width>269</width>
 					<height>402</height>
-					<aspectratio align="left" aligny="bottom">stretch</aspectratio>
+					<aspectratio align="left" aligny="bottom">scale</aspectratio>
 					<texture background="true">$VAR[PosterThumb]</texture>
 					<visible>!String.Contains(ListItem.Icon,Default)</visible>
 				</control>
@@ -2688,7 +2688,7 @@
 					<top>0</top>
 					<width>269</width>
 					<height>402</height>
-					<aspectratio align="left" aligny="bottom">stretch</aspectratio>
+					<aspectratio align="left" aligny="bottom">scale</aspectratio>
 					<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
 					<visible>!String.IsEmpty(ListItem.Art(tvshow.poster))</visible>
 				</control>
